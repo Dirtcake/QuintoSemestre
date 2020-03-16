@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ControleObjetivo : MonoBehaviour
 {
@@ -8,9 +9,12 @@ public class ControleObjetivo : MonoBehaviour
     [SerializeField] Sprite[] l_objetivo;
 
     public int indice;
+
+    public GameObject objetivos;
     void Start()
     {
         indice = 0;
+
     }
 
     // Update is called once per frame
@@ -27,6 +31,7 @@ public class ControleObjetivo : MonoBehaviour
             Debug.Log("bateu");
 
             l_trigger[indice].SetActive(false);
+            objetivos.GetComponent<Image>().sprite = l_objetivo[indice];
 
 
             indice++;
