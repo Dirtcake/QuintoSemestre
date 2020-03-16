@@ -16,13 +16,6 @@ public class ControleObjetivo : MonoBehaviour
         indice = 0;
 
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         for ( int x = indice; indice < l_trigger.Length; indice++)
