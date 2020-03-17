@@ -20,11 +20,10 @@ public class ControleObjetivo : MonoBehaviour
     {
         for ( int x = indice; indice < l_trigger.Length; indice++)
         {
-            Debug.Log(indice);
-            Debug.Log("bateu");
-
-            l_trigger[indice].SetActive(false);
-            objetivos.GetComponent<Image>().sprite = l_objetivo[indice];
+         //   Debug.Log(indice);
+         //  Debug.Log("bateu");
+             l_trigger[indice].SetActive(false);
+             objetivos.GetComponent<Image>().sprite = l_objetivo[indice];
 
 
             indice++;
