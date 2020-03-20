@@ -20,17 +20,22 @@ public class Puzzle : MonoBehaviour {
 
     void Update () {
 
-        Open_camera ();
+       // Open_camera ();
         movimentacao_nacamera ();
 
     }
 
     void OnTriggerStay (Collider other) {
-        if (other.gameObject.tag == "Player") {
-            trigger_check = true;
 
-            Debug.Log ("opaa");
-        } else trigger_check = false;
+        if (other.tag == "Player" && camera_open == false && Input.GetKeyDown (KeyCode.E)) {
+
+            abrir_camera();
+            camera_open = true;
+        }
+        if (other.tag == "Player" && camera_open == true && Input.GetKeyDown (KeyCode.Q)) {
+            fechar_camera();
+            camera_open = false;
+        }
     }
 
     void Open_camera () {
