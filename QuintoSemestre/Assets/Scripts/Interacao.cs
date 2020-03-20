@@ -5,7 +5,7 @@ using UnityEngine;
 public class Interacao : MonoBehaviour
 {
     public float distance = 10;
-    public bool press_button = false;
+   
     
 
     // Start is called before the first frame update
@@ -30,6 +30,8 @@ public class Interacao : MonoBehaviour
         if(selecao != null){
             selecao.Selecionar();
         }
+
+        
 
     }
 }

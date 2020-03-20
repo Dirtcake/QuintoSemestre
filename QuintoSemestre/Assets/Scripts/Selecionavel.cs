@@ -23,25 +23,19 @@ public class Selecionavel : MonoBehaviour
 
     private void LateUpdate()
     {
-        if (selecionado)
-        {
+        if (selecionado){
             renderer.material.SetColor("_EmissionColor", Color.grey);
             renderer.material.EnableKeyword("_EMISSION");
-
-            
         }
 
-        else
-        {
-            renderer.material.DisableKeyword("_EMISSION");
-           
+        else{
+            renderer.material.DisableKeyword("_EMISSION"); 
         }
 
         selecionado = false;
     }
 
-    public void Selecionar()
-    {
+    public void Selecionar(){
         selecionado = true;
     }
 

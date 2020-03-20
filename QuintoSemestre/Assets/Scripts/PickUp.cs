@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Pick_Up : MonoBehaviour
+public class PickUp : MonoBehaviour
 {
     public Transform dest;
     Rigidbody item_gravity;
