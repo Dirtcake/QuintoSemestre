@@ -14,40 +14,67 @@ public class Puzzle : MonoBehaviour {
 
     public GameObject cameraPlayer, panorama;
 
-    void Start () {
+    bool abriu, fechou, animando = true;
 
+    public Vector3 posicao_camera_panorama;
+
+    private Vector3 pos_inicial, pos_final, pos_frame_inicial;
+
+    void Start () {
+        posicao_camera_panorama = new Vector3 (42.9f, 28.2f, -8.7f);
+
+        pos_inicial = cameraPlayer.transform.position;
+        pos_final = posicao_camera_panorama;
     }
 
     void Update () {
 
-       // Open_camera ();
-        movimentacao_nacamera ();
+        //panorama.transform.position = Vector3.Lerp (pos_inicial, pos_final, Time.deltaTime);
+
+        Movimentacao_estatuas ();
+
+        if (Input.GetKeyDown (KeyCode.E)) {
+            abriu = true;
+        }
+        if (Input.GetKeyDown (KeyCode.Q)) {
+            fechou = true;
+        }
 
     }
 
     void OnTriggerStay (Collider other) {
 
-        if (other.tag == "Player" && camera_open == false && Input.GetKeyDown (KeyCode.E)) {
+        if (other.tag == "Player" && camera_open == false && abriu) {
 
-            abrir_camera();
-            camera_open = true;
-        }
-        if (other.tag == "Player" && camera_open == true && Input.GetKeyDown (KeyCode.Q)) {
-            fechar_camera();
-            camera_open = false;
-        }
-    }
-
-    void Open_camera () {
-        if (trigger_check && camera_open == false && Input.GetKeyDown (KeyCode.Q)) {
             abrir_camera ();
+
+            abriu = false;
+
         }
-        if (trigger_check && camera_open == true && Input.GetKeyDown (KeyCode.Q)) {
+
+        if (other.tag == "Player" && camera_open == true && fechou) {
+
             fechar_camera ();
+
+            fechou = false;
+
         }
     }
 
-    void movimentacao_nacamera () {
+    void abrir_camera () {
+
+        cameraPlayer.SetActive (false);
+
+        camera_open = true;
+    }
+    void fechar_camera () {
+
+        cameraPlayer.SetActive (true);
+
+        camera_open = false;
+    }
+
+    void Movimentacao_estatuas () {
         if (camera_open && Input.GetKeyDown (KeyCode.E) && tipo == 1) {
             EstatuaMeio.transform.Rotate (0, 90, 0);
             EstatuaDireita.transform.Rotate (0, 90, 0);
@@ -66,17 +93,14 @@ public class Puzzle : MonoBehaviour {
 
     }
 
-    void abrir_camera () {
-        panorama.SetActive (true);
-        cameraPlayer.SetActive (false);
-
-        camera_open = true;
-    }
-    void fechar_camera () {
-        panorama.SetActive (false);
-        cameraPlayer.SetActive (true);
-
-        camera_open = false;
-    }
-
 }
+
+/*
+Click => desliga a camera do jogador
+movimenta a camera do puzzle da posição do jogador até a posição pre estabelecida
+Só consegue movimentar as estatuas quando chega na posição final
+
+Click=> volta a camera pra posição do jogador 
+desliga a rotação das estatuas
+e liga a camera do jogador
+*/
