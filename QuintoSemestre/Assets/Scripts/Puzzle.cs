@@ -16,13 +16,17 @@ public class Puzzle : MonoBehaviour {
     private bool entrou, saiu;
 
     void Start () {
-
+        from = EstatuaMeio.transform;
+        to = from;
     }
 
     void Update () {
 
         // Open_camera ();
-        movimentacao_nacamera ();
+
+        if (camera_open)
+            movimentacao_nacamera ();
+        //Lerp_rotate ();
 
         if (Input.GetKeyDown (KeyCode.E)) entrou = true;
         if (Input.GetKeyDown (KeyCode.Q)) saiu = true;
@@ -55,8 +59,28 @@ public class Puzzle : MonoBehaviour {
         }
     }
 
+    Transform from, to;
+    bool rotate;
+
+    float contador = Time.time + 4 ;
+
+    void Lerp_rotate () {
+
+        if (contador < Time.time) {
+            to.transform.eulerAngles += 90 * Vector3.up;
+            //EstatuaMeio.transform.rotation = Quaternion.Lerp (from.rotation, to.rotation, Time.deltaTime);
+            contador = Time.time + 4;
+        }
+
+        EstatuaMeio.transform.rotation = Quaternion.Lerp (from.rotation, to.rotation, 0.1f);
+
+    }
+
     void movimentacao_nacamera () {
         if (camera_open && Input.GetKeyDown (KeyCode.E) && tipo == 1) {
+
+            rotate = true;
+
             EstatuaMeio.transform.Rotate (0, 90, 0);
             EstatuaDireita.transform.Rotate (0, 90, 0);
             EstatuaEsquerda.transform.Rotate (0, 90, 0);
