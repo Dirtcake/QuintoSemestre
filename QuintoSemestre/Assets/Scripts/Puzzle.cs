@@ -13,28 +13,40 @@ public class Puzzle : MonoBehaviour {
     bool camera_open, trigger_check;
 
     public GameObject cameraPlayer, panorama;
+    private bool entrou, saiu;
 
     void Start () {
-
+        from = EstatuaMeio.transform;
+        to = from;
     }
 
     void Update () {
 
-       // Open_camera ();
-        movimentacao_nacamera ();
+        // Open_camera ();
+
+        if (camera_open)
+            movimentacao_nacamera ();
+        //Lerp_rotate ();
+
+        if (Input.GetKeyDown (KeyCode.E)) entrou = true;
+        if (Input.GetKeyDown (KeyCode.Q)) saiu = true;
 
     }
 
     void OnTriggerStay (Collider other) {
 
-        if (other.tag == "Player" && camera_open == false && Input.GetKeyDown (KeyCode.E)) {
+        if (other.tag == "Player" && camera_open == false && entrou) {
 
-            abrir_camera();
+            abrir_camera ();
             camera_open = true;
+
+            entrou = false;
         }
-        if (other.tag == "Player" && camera_open == true && Input.GetKeyDown (KeyCode.Q)) {
-            fechar_camera();
+        if (other.tag == "Player" && camera_open == true && saiu) {
+            fechar_camera ();
             camera_open = false;
+
+            saiu = false;
         }
     }
 
@@ -47,8 +59,28 @@ public class Puzzle : MonoBehaviour {
         }
     }
 
+    Transform from, to;
+    bool rotate;
+
+    float contador = Time.time + 4 ;
+
+    void Lerp_rotate () {
+
+        if (contador < Time.time) {
+            to.transform.eulerAngles += 90 * Vector3.up;
+            //EstatuaMeio.transform.rotation = Quaternion.Lerp (from.rotation, to.rotation, Time.deltaTime);
+            contador = Time.time + 4;
+        }
+
+        EstatuaMeio.transform.rotation = Quaternion.Lerp (from.rotation, to.rotation, 0.1f);
+
+    }
+
     void movimentacao_nacamera () {
         if (camera_open && Input.GetKeyDown (KeyCode.E) && tipo == 1) {
+
+            rotate = true;
+
             EstatuaMeio.transform.Rotate (0, 90, 0);
             EstatuaDireita.transform.Rotate (0, 90, 0);
             EstatuaEsquerda.transform.Rotate (0, 90, 0);
