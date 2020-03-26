@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Puzzle : MonoBehaviour {
 
@@ -13,9 +14,11 @@ public class Puzzle : MonoBehaviour {
     bool camera_open, trigger_check;
 
     public GameObject cameraPlayer, panorama;
+    public Image interacao_e;
 
     void Start () {
-
+        interacao_e = GetComponent<Image>();
+           
     }
 
     void Update () {
@@ -25,18 +28,31 @@ public class Puzzle : MonoBehaviour {
 
     }
 
+  
     void OnTriggerStay (Collider other) {
+
+        interacao_e.enabled = true;
 
         if (other.tag == "Player" && camera_open == false && Input.GetKeyDown (KeyCode.E)) {
 
             abrir_camera();
             camera_open = true;
+            //interacao_e.enabled = false;
         }
         if (other.tag == "Player" && camera_open == true && Input.GetKeyDown (KeyCode.Q)) {
             fechar_camera();
             camera_open = false;
+            
         }
+
+
     }
+
+    private void OnTriggerExit(Collider other)
+    {
+       // if(other.tag == "Player") interacao_e.enabled = false;
+    }
+
 
     void Open_camera () {
         if (trigger_check && camera_open == false && Input.GetKeyDown (KeyCode.Q)) {
