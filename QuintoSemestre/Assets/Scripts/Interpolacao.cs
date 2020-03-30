@@ -22,12 +22,12 @@ public class Interpolacao : MonoBehaviour
         if(gameObject.tag == "alavanca") { 
             if (alavanca_ativa)
             {
-                posicao = Quaternion.Slerp(posicao,Quaternion.Euler(estado_final), Time.deltaTime * 3);
+                posicao = Quaternion.Slerp(posicao,Quaternion.Euler(controlador_estado_inicial), Time.deltaTime * 3);
                 transform.rotation = posicao;
             }
 
             else if(!alavanca_ativa) {
-                posicao = Quaternion.Slerp(posicao,Quaternion.Euler(estado_inicial), Time.deltaTime * 3);
+                posicao = Quaternion.Slerp(posicao,Quaternion.Euler(controlador_estado_final), Time.deltaTime * 3);
                 transform.rotation = posicao;
             }
 

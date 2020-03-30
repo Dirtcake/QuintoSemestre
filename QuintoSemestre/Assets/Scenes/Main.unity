@@ -1427,8 +1427,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88c833e2f3b091a4b994acbfa4f83dc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  estado_inicial: {x: 20, y: 0, z: 0}
-  estado_final: {x: -20, y: 0, z: 0}
+  controlador_estado_inicial: {x: 20, y: 0, z: 0}
+  controlador_estado_final: {x: -20, y: 0, z: 0}
+  controlado_estado_inicial: {x: 0, y: 0, z: 0}
+  controlado_estado_final: {x: 0, y: 0, z: 0}
 --- !u!114 &84526381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1441,7 +1443,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0128c0d6fef41fd4dbe6dbb6a7e7844c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlado: {fileID: 84526374}
+  controlado: {fileID: 0}
+  controlador: {fileID: 84526374}
 --- !u!4 &88598328 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 178dfa273b6bcbe47a77c8bb126c3778,
@@ -12961,8 +12964,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88c833e2f3b091a4b994acbfa4f83dc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  estado_inicial: {x: 0, y: 0, z: 0}
-  estado_final: {x: 0, y: 0, z: 0}
+  controlador_estado_inicial: {x: 0, y: 0, z: 0}
+  controlador_estado_final: {x: 0, y: 0, z: 0}
+  controlado_estado_inicial: {x: 0, y: 0, z: 0}
+  controlado_estado_final: {x: 0, y: 0, z: 0}
 --- !u!4 &857715749 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 178dfa273b6bcbe47a77c8bb126c3778,
@@ -15387,8 +15392,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88c833e2f3b091a4b994acbfa4f83dc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  estado_inicial: {x: 20, y: 0, z: 0}
-  estado_final: {x: -20, y: 0, z: 0}
+  controlador_estado_inicial: {x: 20, y: 0, z: 0}
+  controlador_estado_final: {x: -20, y: 0, z: 0}
+  controlado_estado_inicial: {x: 0, y: 0, z: 0}
+  controlado_estado_final: {x: 0, y: 0, z: 0}
 --- !u!114 &1016203212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15401,7 +15408,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0128c0d6fef41fd4dbe6dbb6a7e7844c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlado: {fileID: 1016203205}
+  controlado: {fileID: 0}
+  controlador: {fileID: 1016203205}
 --- !u!1001 &1022721622
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16534,8 +16542,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88c833e2f3b091a4b994acbfa4f83dc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  estado_inicial: {x: 20, y: 0, z: 0}
-  estado_final: {x: -20, y: 0, z: 0}
+  controlador_estado_inicial: {x: 20, y: 0, z: 0}
+  controlador_estado_final: {x: -20, y: 0, z: 0}
+  controlado_estado_inicial: {x: 0, y: 0, z: 0}
+  controlado_estado_final: {x: 0, y: 0, z: 0}
 --- !u!114 &1076150942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16548,7 +16558,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0128c0d6fef41fd4dbe6dbb6a7e7844c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlado: {fileID: 1076150935}
+  controlado: {fileID: 0}
+  controlador: {fileID: 1076150935}
 --- !u!1001 &1077501848
 PrefabInstance:
   m_ObjectHideFlags: 0
