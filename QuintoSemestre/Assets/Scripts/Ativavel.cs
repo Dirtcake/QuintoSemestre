@@ -4,15 +4,39 @@ using UnityEngine;
 
 public class Ativavel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject controlado;
+    public GameObject controlador;
+
+    Interpolacao ativado = GetComponent<Interpolacao>();
+
+    public void Start()
     {
         
     }
+   
 
-    // Update is called once per frame
+    public void Ativa()
+    {
+        //ativado = GetComponent<Interpolacao>();
+
+        if (gameObject.tag == "alavanca")
+        {
+            controlador.ativado.Alavanca();
+            controlado.ativado.Estatua();
+        }
+
+
+        if(gameObject.tag == "porta")
+        {
+            controlado.GetComponent<Interpolacao>().Porta();
+        }
+
+    }
+
     void Update()
     {
         
     }
+
+
 }
