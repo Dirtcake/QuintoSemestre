@@ -7,7 +7,7 @@ public class Ativavel : MonoBehaviour
     public GameObject controlado;
     public GameObject controlador;
 
-    Interpolacao ativado = GetComponent<Interpolacao>();
+    //Interpolacao ativado = GetComponent<Interpolacao>();
 
     public void Start()
     {
@@ -21,8 +21,8 @@ public class Ativavel : MonoBehaviour
 
         if (gameObject.tag == "alavanca")
         {
-            controlador.ativado.Alavanca();
-            controlado.ativado.Estatua();
+            controlador.GetComponent<Interpolacao>().Alavanca();
+            controlado.GetComponent<Interpolacao>();
         }
 
 

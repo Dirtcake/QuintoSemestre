@@ -48,10 +48,6 @@ public class Interpolacao : MonoBehaviour
 
         }
 
-        if(gameObject.tag == "estatua")
-        {
-
-        }
     }
 
     
@@ -65,8 +61,5 @@ public class Interpolacao : MonoBehaviour
         alavanca_ativa = !alavanca_ativa;
     }
 
-    public void Estatua()
-    {
-
-    }
+    
 }
