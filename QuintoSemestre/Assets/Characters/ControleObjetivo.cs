@@ -8,12 +8,14 @@ public class ControleObjetivo : MonoBehaviour
     [SerializeField] GameObject[] l_trigger;
     [SerializeField] Sprite[] l_objetivo;
 
+    public AudioClip som;
     public int indice;
-
+    AudioSource sons;    
     public GameObject objetivos;
     void Start()
     {
         indice = 0;
+        sons = GetComponent<AudioSource>();
 
     }
     private void OnTriggerEnter(Collider other)
@@ -24,7 +26,8 @@ public class ControleObjetivo : MonoBehaviour
          //  Debug.Log("bateu");
              l_trigger[indice].SetActive(false);
              objetivos.GetComponent<Image>().sprite = l_objetivo[indice];
-
+             sons.clip = som;
+            sons.Play();
 
             indice++;
             break;
