@@ -9,6 +9,8 @@ public class MedidorAgua : MonoBehaviour
      
     private void start(){
         barra.minValue = 0;
+        barra.maxValue = maximo;
+        barra.value = maximo;
 
     }
 }
