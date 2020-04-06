@@ -31,6 +31,8 @@ public class Puzzle : MonoBehaviour {
         if (Input.GetKeyDown (KeyCode.E)) entrou = true;
         if (Input.GetKeyDown (KeyCode.Q)) saiu = true;
 
+        
+
     }
 
     void OnTriggerStay (Collider other) {

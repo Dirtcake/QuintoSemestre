@@ -4,62 +4,55 @@ using UnityEngine;
 
 public class Interpolacao : MonoBehaviour
 {
-    public Vector3 controlador_estado_inicial;
-    public Vector3 controlador_estado_final;
-
     public Vector3 controlado_estado_inicial;
     public Vector3 controlado_estado_final;
 
+    public float velocidade_anim = 2;
+    private float contador = 0;
+    public float angulo;
 
-    bool alavanca_ativa = false;
     bool porta_ativa = false;
     bool estatua_ativa = false;
-  
+
+
     void Update()
     {
-        Quaternion posicao = transform.rotation;
-        
-        if(gameObject.tag == "alavanca") { 
-            if (alavanca_ativa)
-            {
-                posicao = Quaternion.Slerp(posicao,Quaternion.Euler(controlador_estado_inicial), Time.deltaTime * 3);
-                transform.rotation = posicao;
-            }
+        Quaternion rotacao = transform.rotation;
+        Vector3 posicao = transform.localPosition;
 
-            else if(!alavanca_ativa) {
-                posicao = Quaternion.Slerp(posicao,Quaternion.Euler(controlador_estado_final), Time.deltaTime * 3);
-                transform.rotation = posicao;
-            }
-
-        }
-
-        if(gameObject.tag == "porta")
+        if (gameObject.tag == "porta")
         {
             if (porta_ativa)
             {
-
-            }
-
-            else
-            {
-
-            }
-
-
+                gameObject.GetComponent<BoxCollider>().enabled = false;
+                posicao = Vector3.Lerp(posicao, controlado_estado_final, Time.deltaTime * velocidade_anim);
+            }           
         }
 
+        if(gameObject.tag == "estatua")
+        {
+            Quaternion quat = Quaternion.Euler(rotacao.x, rotacao.y, rotacao.z);
+            rotacao = Quaternion.Lerp(rotacao, Quaternion.AngleAxis(90 * contador, Vector3.up), Time.deltaTime);
+        }
+
+        transform.rotation = rotacao;
+        transform.localPosition = posicao;
     }
 
     
     public void Porta()
     {
-        porta_ativa = !porta_ativa;
+        porta_ativa = true;
     }
 
-    public void Alavanca()
+    public void Estatua()
     {
-        alavanca_ativa = !alavanca_ativa;
+        contador += 1;
     }
+
 
     
+
+
+
 }

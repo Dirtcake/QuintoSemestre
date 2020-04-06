@@ -36,8 +36,10 @@ public class Interacao : MonoBehaviour
 
         if(ativacao != null)
         {
-            if (Input.GetMouseButtonDown(0)) { 
-            ativacao.Ativa();
+            if (Input.GetMouseButtonDown(0)) {
+                ativacao.Animacao();
+                ativacao.Ativa();
+            
             }
         }
 
