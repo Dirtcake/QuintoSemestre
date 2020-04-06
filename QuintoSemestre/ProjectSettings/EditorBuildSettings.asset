@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: d30fc679f622aa64682923749ae65776
   - enabled: 1
+    path: Assets/Scenes/Carregamento.unity
+    guid: 9c9034dd1ab63bc4ab677e59b9d4bc71
+  - enabled: 1
     path: Assets/Scenes/Main.unity
     guid: 9aaaf4c1187795e48964bc4ac6e571a5
   - enabled: 1
