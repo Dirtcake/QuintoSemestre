@@ -9,8 +9,9 @@ public class TelaLoading : MonoBehaviour
     [SerializeField]
     private Image Progresso;
  
-    void Start()
+    private IEnumerator Start()
     {
+        yield return new WaitForSeconds(1.5f);
         StartCoroutine(LoadAsyncOperation());
     }
 
