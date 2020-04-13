@@ -6,23 +6,24 @@ public class Ativavel : MonoBehaviour
 {
    
     public GameObject[] controlado_array;
+    public GameObject camera_panorama;
 
-   public Quaternion estatua1;
-   public Quaternion estatua2;
-   public Quaternion estatua3;
+   
 
     public Vector3 inicial;
     public Vector3 final;
+
     public float vel;
+
     bool ativo = false;
-   
+    public bool controle_de_camera = false;
+    public bool vista_panorama = false;
 
     public void Start()
     {
         vel = 2f;  
     }
-    void Update()
-    {
+    void Update(){
         Quaternion rotacao = transform.rotation;
 
         if (gameObject.tag == "alavanca")
@@ -39,47 +40,49 @@ public class Ativavel : MonoBehaviour
         }
         transform.rotation = rotacao;
 
+        if (controle_de_camera){
+            if (Input.GetMouseButtonDown(1))
+            {
+                Camera_Controle_Desativa();
+            }
+        }
+
+
     }
 
-    public void Ativa()
-    {
+   
 
+    public void Ativa(){
         for(int i = 0; i < controlado_array.Length; i++){ 
             if(controlado_array[i].tag == "estatua")
             {
-                if (controlado_array[i].name == "ganesha") estatua1 = controlado_array[i].transform.rotation;
-                else if (controlado_array[i].name == "ganesha (1)") estatua2 = controlado_array[i].transform.rotation;
-                else if (controlado_array[i].name == "ganesha (2)") estatua3 = controlado_array[i].transform.rotation;
                 controlado_array[i].GetComponent<Interpolacao>().Estatua();
             }
             if (controlado_array[i].tag == "porta")
             {
                 controlado_array[i].GetComponent<Interpolacao>().Porta();
             }
+            if (controlado_array[i].name == "PortaPuzzle1")
+            {
+                controlado_array[i].GetComponent<Interpolacao>().PortaPuzzle1();
+            }
         }
-
-
+        if(controle_de_camera) Camera_Controle();
 
     }
 
-    public void Animacao()
-    {
+    public void Animacao(){
         ativo = !ativo;
     }
 
-   
-
-
-}
-
-public class PuzzleTutor : Ativavel
-{
-
-     void Update()
+    public void Camera_Controle()
     {
-        if (estatua1.y == 0 && estatua2.y == 180 && estatua3.y == 90)
-        {
-            print("as três estátuas estão alinhadas");
-        }
+        camera_panorama.SetActive(true);
     }
+
+    public void Camera_Controle_Desativa()
+    {
+        camera_panorama.SetActive(false);
+    }
+
 }

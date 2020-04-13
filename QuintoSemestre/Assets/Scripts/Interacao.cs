@@ -4,46 +4,38 @@ using UnityEngine;
 
 public class Interacao : MonoBehaviour
 {
-    public float distance = 10;
-   
-    
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    public float distance = 60;
+    Vector3 copia = Vector3.zero;
     void Update()
     {
-        //laser cast AMANDA 
+        //raycast 1
         Ray raio = Camera.main.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(raio.origin, raio.direction * distance);
+       
         RaycastHit hit;
         Selecionavel selecao = null;
         Ativavel ativacao = null;
 
+         
+            if (Physics.Raycast(raio, out hit, distance)){
+                selecao = hit.transform.GetComponent<Selecionavel>();
+                ativacao = hit.transform.GetComponent<Ativavel>();
+            }
+       
+       
+        
 
-        if (Physics.Raycast(raio, out hit, distance)){
-            selecao = hit.transform.GetComponent<Selecionavel>();
-
-            ativacao = hit.transform.GetComponent<Ativavel>();
-        }
-        if(selecao != null){
+        if (selecao != null){
             selecao.Selecionar();
         }
 
-        if(ativacao != null)
-        {
+        if(ativacao != null){
             if (Input.GetMouseButtonDown(0)) {
+                if(ativacao.controle_de_camera == true) copia = hit.transform.position;
                 ativacao.Animacao();
                 ativacao.Ativa();
-            
             }
-        }
-
-        
-
+        }        
+     }
     }
-}
+

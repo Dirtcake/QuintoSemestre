@@ -40,6 +40,8 @@ namespace UnityStandardAssets.Characters.FirstPerson {
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+        public bool camera_ativa = true;
+       
         // Use this for initialization
         private void Start () {
             m_CharacterController = GetComponent<CharacterController> ();
@@ -135,7 +137,7 @@ namespace UnityStandardAssets.Characters.FirstPerson {
             m_CollisionFlags = m_CharacterController.Move (m_MoveDir * Time.fixedDeltaTime);
 
             ProgressStepCycle (speed);
-            UpdateCameraPosition (speed);
+            if(camera_ativa) UpdateCameraPosition (speed);
 
             m_MouseLook.UpdateCursorLock ();
         }

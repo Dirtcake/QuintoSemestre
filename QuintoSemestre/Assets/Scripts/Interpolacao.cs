@@ -13,7 +13,7 @@ public class Interpolacao : MonoBehaviour
 
     bool porta_ativa = false;
     bool estatua_ativa = false;
-
+    bool portapuzzle1 = false;
 
     void Update()
     {
@@ -35,6 +35,16 @@ public class Interpolacao : MonoBehaviour
             rotacao = Quaternion.Lerp(rotacao, Quaternion.AngleAxis(90 * contador, Vector3.up), Time.deltaTime);
         }
 
+        if(gameObject.name == "PortaPuzzle1")
+        {
+            if (portapuzzle1)
+            {
+                //gameObject.GetComponent<BoxCollider>().enabled = false;
+                
+                posicao = Vector3.Lerp(posicao, controlado_estado_final, Time.deltaTime * velocidade_anim);
+            }
+        }
+
         transform.rotation = rotacao;
         transform.localPosition = posicao;
     }
@@ -50,6 +60,10 @@ public class Interpolacao : MonoBehaviour
         contador += 1;
     }
 
+    public void PortaPuzzle1()
+    {
+        portapuzzle1 = !portapuzzle1;
+    }
 
     
 
