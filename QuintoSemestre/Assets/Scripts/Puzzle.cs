@@ -16,7 +16,7 @@ public class Puzzle : MonoBehaviour {
     private bool entrou, saiu;
 
     void Start () {
-        from = EstatuaMeio.transform;
+       from = EstatuaMeio.transform;
         to = from;
     }
 

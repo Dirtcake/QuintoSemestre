@@ -1,12 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class Ativavel : MonoBehaviour
 {
    
     public GameObject[] controlado_array;
     public GameObject camera_panorama;
+    public FirstPersonController jogador;
 
    
 
@@ -78,11 +80,14 @@ public class Ativavel : MonoBehaviour
     public void Camera_Controle()
     {
         camera_panorama.SetActive(true);
+        jogador.pj_andando = false;
+        
     }
 
     public void Camera_Controle_Desativa()
     {
         camera_panorama.SetActive(false);
+        jogador.pj_andando = true;
     }
 
 }
