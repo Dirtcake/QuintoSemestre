@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class MenuPause : MonoBehaviour
 {
     public static bool JogoPausado = false;
     public GameObject MenuPauseUI;
+    public FirstPersonController jogador;
     
   
     
@@ -40,6 +42,7 @@ public class MenuPause : MonoBehaviour
        
         Time.timeScale = 1f;
         JogoPausado = false;
+        jogador.pj_andando = true;
     }
     void Pause()
     {
@@ -47,6 +50,7 @@ public class MenuPause : MonoBehaviour
       
         Time.timeScale = 0f;
         JogoPausado = true;
+        jogador.pj_andando = false;
     }
 }
 
