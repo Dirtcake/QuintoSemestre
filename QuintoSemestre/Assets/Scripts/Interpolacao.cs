@@ -31,8 +31,8 @@ public class Interpolacao : MonoBehaviour
 
         if(gameObject.tag == "estatua")
         {
-            Quaternion quat = Quaternion.Euler(rotacao.x, rotacao.y, rotacao.z);
-            rotacao = Quaternion.Lerp(rotacao, Quaternion.AngleAxis(90 * contador, Vector3.up), Time.deltaTime);
+            //Quaternion quat = Quaternion.Euler(rotacao.x, rotacao.y, rotacao.z);
+            rotacao = Quaternion.Lerp(rotacao, Quaternion.AngleAxis(angulo * contador, Vector3.up), Time.deltaTime);
         }
 
         if(gameObject.name == "PortaPuzzle1")
