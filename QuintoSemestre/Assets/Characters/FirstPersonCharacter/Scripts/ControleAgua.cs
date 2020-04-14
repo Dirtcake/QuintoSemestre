@@ -8,6 +8,8 @@ public class ControleAgua : MonoBehaviour
     public Slider Barra;
 
     public float maximo = 100f;
+
+    public 
     void Start()
     {
         Barra.minValue = 0;
