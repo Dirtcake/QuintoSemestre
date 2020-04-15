@@ -56,6 +56,7 @@ public class MenuPause : MonoBehaviour
 
     public void VoltarMenu()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene("menu");
     }
 }
