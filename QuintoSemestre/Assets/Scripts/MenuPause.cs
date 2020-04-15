@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.SceneManagement;
 
 public class MenuPause : MonoBehaviour
 {
@@ -36,7 +37,7 @@ public class MenuPause : MonoBehaviour
         }
     }
 
-    void Resume()
+    public void Resume()
     {
         MenuPauseUI.SetActive(false);
        
@@ -51,6 +52,11 @@ public class MenuPause : MonoBehaviour
         Time.timeScale = 0f;
         JogoPausado = true;
         jogador.pj_andando = false;
+    }
+
+    public void VoltarMenu()
+    {
+        SceneManager.LoadScene("menu");
     }
 }
 
