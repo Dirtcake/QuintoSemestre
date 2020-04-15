@@ -20,17 +20,28 @@ public class ControleObjetivo : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        for ( int x = indice; indice < l_trigger.Length; indice++)
+        /* for ( int x = indice; indice < l_trigger.Length; indice++)
+         {
+          //   Debug.Log(indice);
+          //  Debug.Log("bateu");
+              l_trigger[indice].SetActive(false);
+              objetivos.GetComponent<Image>().sprite = l_objetivo[indice];
+              sons.clip = som;
+             sons.Play();
+
+             indice++;
+             break;
+         }*/
+       if(other.gameObject.layer == (9) && indice < l_trigger.Length)
         {
-         //   Debug.Log(indice);
-         //  Debug.Log("bateu");
-             l_trigger[indice].SetActive(false);
-             objetivos.GetComponent<Image>().sprite = l_objetivo[indice];
-             sons.clip = som;
+            l_trigger[indice].SetActive(false);
+            objetivos.GetComponent<Image>().sprite = l_objetivo[indice];
+            sons.clip = som;
             sons.Play();
 
             indice++;
-            break;
         }
+
+
     }
 }
