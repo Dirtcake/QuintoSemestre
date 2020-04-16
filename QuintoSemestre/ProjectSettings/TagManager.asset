@@ -7,6 +7,7 @@ TagManager:
   - porta
   - alavanca
   - estatua
+  - estado
   layers:
   - Default
   - TransparentFX

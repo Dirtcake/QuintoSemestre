@@ -9,7 +9,7 @@ public class ControleAgua : MonoBehaviour
 
     public float maximo = 100f;
 
-    public 
+    public float atual;
     void Start()
     {
         Barra.minValue = 0;
@@ -21,6 +21,6 @@ public class ControleAgua : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Barra.value = atual;
     }
 }

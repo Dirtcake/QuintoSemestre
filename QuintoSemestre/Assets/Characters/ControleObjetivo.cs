@@ -2,22 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.Video;
 public class ControleObjetivo : MonoBehaviour
 {
     [SerializeField] GameObject[] l_trigger;
     [SerializeField] Sprite[] l_objetivo;
+    [SerializeField] VideoPlayer[] l_videos;
+
+    public RawImage fundoVideo;
+    public AudioClip somLugar;
 
     public AudioClip som;
     public int indice;
     AudioSource sons;    
     public GameObject objetivos;
+
     void Start()
     {
         indice = 0;
         sons = GetComponent<AudioSource>();
 
     }
+
+  
+
     private void OnTriggerEnter(Collider other)
     {
         /* for ( int x = indice; indice < l_trigger.Length; indice++)
@@ -32,16 +40,21 @@ public class ControleObjetivo : MonoBehaviour
              indice++;
              break;
          }*/
-       if(other.gameObject.layer == (9) && indice < l_trigger.Length)
+        if (other.CompareTag("estado") && indice < l_trigger.Length)
         {
-            l_trigger[indice].SetActive(false);
+            Debug.Log("bateu");
+            
+
             objetivos.GetComponent<Image>().sprite = l_objetivo[indice];
+            fundoVideo.texture = l_videos[indice].texture;
+            
+            l_videos[indice].Play();
             sons.clip = som;
             sons.Play();
 
+            l_trigger[indice].SetActive(false);
+            other.gameObject.SetActive(false);
             indice++;
         }
-
-
     }
 }
