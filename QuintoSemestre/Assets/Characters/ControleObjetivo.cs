@@ -24,7 +24,6 @@ public class ControleObjetivo : MonoBehaviour
 
     }
 
-  
 
     private void OnTriggerEnter(Collider other)
     {
@@ -42,13 +41,15 @@ public class ControleObjetivo : MonoBehaviour
          }*/
         if (other.CompareTag("estado") && indice < l_trigger.Length)
         {
-            Debug.Log("bateu");
             
+            Debug.Log("bateu");
+
 
             objetivos.GetComponent<Image>().sprite = l_objetivo[indice];
+
             fundoVideo.texture = l_videos[indice].texture;
-            
             l_videos[indice].Play();
+           
             sons.clip = som;
             sons.Play();
 
