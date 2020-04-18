@@ -25,7 +25,7 @@ public class Estatuas : MonoBehaviour
         float ganesha2 = estatua3.transform.eulerAngles.y;
 
 
-        if ((ganesha <= 20f || ganesha >= 350f) && (ganesha1 >= 170f && ganesha1 <= 180f) && (ganesha2 >= 80f && ganesha2 <= 90f))
+        if ((ganesha <= 20 || ganesha >= 350) && (ganesha1 >= 170 && ganesha1 <= 180) && (ganesha2 >= 80 && ganesha2 <= 90))
         {
             contador += Time.deltaTime * 2f;
             camera_porta.SetActive(true);
