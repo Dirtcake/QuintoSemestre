@@ -17,11 +17,15 @@ public class ControleObjetivo : MonoBehaviour
     AudioSource sons;    
     public GameObject objetivos;
 
+    public float alpha ;
+
     void Start()
     {
         indice = 0;
         sons = GetComponent<AudioSource>();
+     //   fundoVideo = GetComponent<RawImage>();
 
+        fundoVideo.CrossFadeAlpha(alpha, 0f, true);
     }
 
 
@@ -46,7 +50,7 @@ public class ControleObjetivo : MonoBehaviour
 
 
             objetivos.GetComponent<Image>().sprite = l_objetivo[indice];
-
+            fundoVideo.CrossFadeAlpha(1f, 0f, true);
             fundoVideo.texture = l_videos[indice].texture;
             l_videos[indice].Play();
            
