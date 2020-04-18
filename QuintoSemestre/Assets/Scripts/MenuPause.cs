@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.UI;
+using UnityStandardAssets.Characters.FirstPerson;
+using UnityEngine.SceneManagement;
 
 public class MenuPause : MonoBehaviour
 {
     public static bool JogoPausado = false;
     public GameObject MenuPauseUI;
+    public FirstPersonController jogador;
     
   
     
@@ -34,12 +37,13 @@ public class MenuPause : MonoBehaviour
         }
     }
 
-    void Resume()
+    public void Resume()
     {
         MenuPauseUI.SetActive(false);
        
         Time.timeScale = 1f;
         JogoPausado = false;
+        jogador.pj_andando = true;
     }
     void Pause()
     {
@@ -47,6 +51,13 @@ public class MenuPause : MonoBehaviour
       
         Time.timeScale = 0f;
         JogoPausado = true;
+        jogador.pj_andando = false;
+    }
+
+    public void VoltarMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("menu");
     }
 }
 
