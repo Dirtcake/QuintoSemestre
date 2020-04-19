@@ -15,7 +15,7 @@ public class Ativavel : MonoBehaviour
     public Vector3 inicial;
     public Vector3 final;
 
-    public float vel;
+    public float vel = 2f;
 
     bool ativo = false;
     public bool controle_de_camera = false;
@@ -23,9 +23,10 @@ public class Ativavel : MonoBehaviour
 
     public void Start()
     {
-        vel = 2f;  
+          
     }
     void Update(){
+
         Quaternion rotacao = transform.rotation;
 
         if (gameObject.tag == "alavanca")

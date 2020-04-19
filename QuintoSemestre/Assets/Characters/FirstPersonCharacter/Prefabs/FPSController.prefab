@@ -181,7 +181,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
   m_JumpSound: {fileID: 8300000, guid: 5897aeed9b676024fbb8c694b421a861, type: 3}
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
-  camera_ativa: 1
+  pj_andando: 1
 --- !u!54 &5400000
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -313,11 +313,16 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   l_objetivo:
-  - {fileID: 21300000, guid: 0a2bc5c1129be7745a7499e76217472a, type: 3}
-  - {fileID: 21300000, guid: b93d668f38389134e99f7676b7cfe63b, type: 3}
-  - {fileID: 21300000, guid: 2dd469f12df92714d9bb16c6cefe6243, type: 3}
-  - {fileID: 21300000, guid: bfdccea9e0de0fa44a9f09b3f9056c29, type: 3}
+  - {fileID: 21300000, guid: ee51bdb769346a94b85cd0f07b3a7398, type: 3}
+  - {fileID: 21300000, guid: 63d80b5eb5e4ac64a89f5401a0bdb7d8, type: 3}
+  - {fileID: 21300000, guid: fe2eb174aa0d11445bc11e69bf8f42d6, type: 3}
+  - {fileID: 21300000, guid: fcf59f6de009d144597564a90a63a9fa, type: 3}
   - {fileID: 21300000, guid: 21cbb69a6fdbdf642b1e05f61637f185, type: 3}
+  l_videos:
+  - {fileID: 0}
+  - {fileID: 0}
+  fundoVideo: {fileID: 0}
+  somLugar: {fileID: 0}
   som: {fileID: 8300000, guid: 140d2a02db92e2c47b80043572b2939c, type: 3}
   indice: 0
   objetivos: {fileID: 0}
@@ -348,6 +353,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Barra: {fileID: 0}
   maximo: 100
+  atual: 0
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
