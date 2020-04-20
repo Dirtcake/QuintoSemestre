@@ -16,8 +16,9 @@ public class Ativavel : MonoBehaviour
     public Vector3 final;
 
     public float vel = 2f;
+    public float contador_ativo;
 
-    bool ativo = false;
+    public bool ativo = false;
     public bool controle_de_camera = false;
     public bool vista_panorama = false;
 
@@ -35,8 +36,8 @@ public class Ativavel : MonoBehaviour
             {
                 rotacao = Quaternion.Slerp(rotacao, Quaternion.Euler(final), Time.deltaTime * vel);
 
-                if (transform.rotation == Quaternion.Euler(final))
-                    ativo = false;
+                if (transform.rotation == Quaternion.Euler(final)) ativo = false;
+
             }
 
             else rotacao = Quaternion.Slerp(rotacao, Quaternion.Euler(inicial), Time.deltaTime * vel);
@@ -81,6 +82,7 @@ public class Ativavel : MonoBehaviour
     public void Camera_Controle()
     {
         camera_panorama.SetActive(true);
+        vista_panorama = true;
         jogador.pj_andando = false;
         
     }
@@ -88,6 +90,7 @@ public class Ativavel : MonoBehaviour
     public void Camera_Controle_Desativa()
     {
         camera_panorama.SetActive(false);
+        vista_panorama = false;
         jogador.pj_andando = true;
     }
 

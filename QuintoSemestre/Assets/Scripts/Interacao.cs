@@ -6,6 +6,7 @@ public class Interacao : MonoBehaviour
 {
     public float distance = 60;
     Vector3 copia = Vector3.zero;
+    
     void Update()
     {
         //raycast 1
@@ -30,10 +31,15 @@ public class Interacao : MonoBehaviour
         }
 
         if(ativacao != null){
-            if (Input.GetMouseButtonDown(0)) {
-                if(ativacao.controle_de_camera == true) copia = hit.transform.position;
-                ativacao.Animacao();
-                ativacao.Ativa();
+            if (Input.GetMouseButtonDown(0))
+            {
+                //Guardando lógica para posteriores correções
+                // if(ativacao.controle_de_camera == true) copia = hit.transform.position;
+                if (!ativacao.ativo)
+                {
+                    ativacao.Animacao();
+                    ativacao.Ativa();
+                }
             }
         }        
      }

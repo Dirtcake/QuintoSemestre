@@ -11,13 +11,14 @@ public class MenuPause : MonoBehaviour
     public static bool JogoPausado = false;
     public GameObject MenuPauseUI;
     public FirstPersonController jogador;
-    
+
+    Ativavel vista;
   
     
 
     void Start()
     {
-       
+        vista = GetComponent<Ativavel>();
     }
 
     // Update is called once per frame
@@ -43,7 +44,12 @@ public class MenuPause : MonoBehaviour
        
         Time.timeScale = 1f;
         JogoPausado = false;
+        
         jogador.pj_andando = true;
+       
+
+        
+
     }
     void Pause()
     {

@@ -1429,6 +1429,8 @@ MonoBehaviour:
   inicial: {x: 20, y: 0, z: 0}
   final: {x: -20, y: 0, z: 0}
   vel: 2
+  contador_ativo: 0
+  ativo: 0
   controle_de_camera: 1
   vista_panorama: 0
 --- !u!4 &88598328 stripped
@@ -15909,7 +15911,9 @@ MonoBehaviour:
   jogador: {fileID: 1775622650}
   inicial: {x: 20, y: 0, z: 0}
   final: {x: -20, y: 0, z: 0}
-  vel: 2
+  vel: 0.5
+  contador_ativo: 0
+  ativo: 0
   controle_de_camera: 1
   vista_panorama: 0
 --- !u!1001 &1022721622
@@ -17049,6 +17053,8 @@ MonoBehaviour:
   inicial: {x: 20, y: 0, z: 0}
   final: {x: -20, y: 0, z: 0}
   vel: 30
+  contador_ativo: 0
+  ativo: 0
   controle_de_camera: 1
   vista_panorama: 0
 --- !u!1001 &1077501848
@@ -29184,7 +29190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.4
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z

@@ -16,7 +16,6 @@ public class Morte : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
         checkpoint1 = transform.position;
         rotacao_inicial = transform.rotation;
     }

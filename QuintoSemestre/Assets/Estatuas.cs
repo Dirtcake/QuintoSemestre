@@ -27,17 +27,17 @@ public class Estatuas : MonoBehaviour
 
         if ((ganesha <= 20 || ganesha >= 350) && (ganesha1 >= 170 && ganesha1 <= 180) && (ganesha2 >= 80 && ganesha2 <= 90))
         {
-            contador += Time.deltaTime * 2f;
+            if(!porta_desceu) contador += Time.deltaTime * 2f;
             camera_porta.SetActive(true);
             print(contador);
 
-            if (contador > 2f) { 
+            if (contador > 2f) {
                 portaprincipal.GetComponent<Interpolacao>().PortaPuzzle1();
 
                 if (contador > 6f)
                 {
-                    camera_porta.SetActive(false);
-                    //contador = 0;
+                    porta_desceu = true;
+                    camera_porta.SetActive(false); 
                 }
             }
         }
