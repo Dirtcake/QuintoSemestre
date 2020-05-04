@@ -1428,7 +1428,7 @@ MonoBehaviour:
   jogador: {fileID: 1775622650}
   inicial: {x: 20, y: 0, z: 0}
   final: {x: -20, y: 0, z: 0}
-  vel: 2
+  vel: 3
   contador_ativo: 0
   ativo: 0
   controle_de_camera: 1
@@ -15911,7 +15911,7 @@ MonoBehaviour:
   jogador: {fileID: 1775622650}
   inicial: {x: 20, y: 0, z: 0}
   final: {x: -20, y: 0, z: 0}
-  vel: 0.5
+  vel: 3
   contador_ativo: 0
   ativo: 0
   controle_de_camera: 1
@@ -17052,7 +17052,7 @@ MonoBehaviour:
   jogador: {fileID: 1775622650}
   inicial: {x: 20, y: 0, z: 0}
   final: {x: -20, y: 0, z: 0}
-  vel: 30
+  vel: 3
   contador_ativo: 0
   ativo: 0
   controle_de_camera: 1
@@ -19169,7 +19169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlado_estado_inicial: {x: 0, y: 0, z: 0}
   controlado_estado_final: {x: 0, y: 180, z: 0}
-  velocidade_anim: 0.3
+  velocidade_anim: 3
   angulo: 90
 --- !u!1001 &1213643444
 PrefabInstance:
@@ -23653,7 +23653,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlado_estado_inicial: {x: 0, y: 0, z: 0}
   controlado_estado_final: {x: 0, y: 90, z: 0}
-  velocidade_anim: 0.3
+  velocidade_anim: 3
   angulo: 90
 --- !u!1001 &1471505742
 PrefabInstance:
@@ -25214,7 +25214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controlado_estado_inicial: {x: 0, y: 0, z: 0}
   controlado_estado_final: {x: 0, y: 0, z: 0}
-  velocidade_anim: 0.3
+  velocidade_anim: 3
   angulo: 90
 --- !u!1 &1585429490 stripped
 GameObject:
@@ -29186,15 +29186,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.5
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.9
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_LocalRotation.x

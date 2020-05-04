@@ -37,7 +37,7 @@ public class Estatuas : MonoBehaviour
                 if (contador > 6f)
                 {
                     porta_desceu = true;
-                    camera_porta.SetActive(false); 
+                    camera_porta.SetActive(false);
                 }
             }
         }

@@ -34,7 +34,8 @@ public class Interacao : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 //Guardando lógica para posteriores correções
-                // if(ativacao.controle_de_camera == true) copia = hit.transform.position;
+                if(ativacao.controle_de_camera == true) copia = hit.transform.position;
+
                 if (!ativacao.ativo)
                 {
                     ativacao.Animacao();
