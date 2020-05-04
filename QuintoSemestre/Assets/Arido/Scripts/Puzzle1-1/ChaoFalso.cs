@@ -5,17 +5,22 @@ using UnityEngine;
 public class ChaoFalso : MonoBehaviour
 {
     public Vector3 caiu;
-    public Vector3 normal;
+    Vector3 posicao;
     void Start()
     {
-        normal = transform.position;
+        posicao = transform.localPosition;
     }
     void Update()
     {
-        
+
     }
-    private void OnCollisionEnter(Collider col )
+    private void OnCollisionEnter(Collider col)
     {
-       
+        if (CompareTag("Player"))
+        {
+            
+            posicao = Vector3.Lerp(posicao, caiu, 2 * Time.deltaTime);
+            
+        }
     }
 }
