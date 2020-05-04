@@ -1,45 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class Action : MonoBehaviour
 {
 
-	GameObject descricao;
+	public PlayableDirector alavanca;
+	//public PlayableDirector evento;
 
-	void Start()
+	public GameObject Cinematic;
+
+	public void Ativa()
 	{
-		descricao = GameObject.Find("interacaoMessage");
-		descricao.SetActive(false);
-	}
+		 if(alavanca != null) alavanca.Play();
+		//evento.Play();
 
-	void Update()
-	{
-		Ray raio = Camera.main.ScreenPointToRay(Input.mousePosition);
-		RaycastHit hit;
+		Instantiate(Cinematic);
 
-		Selecionavel selecao = null;
-		Ativavel ativacao = null;
-
-		if (Physics.Raycast(raio, out hit, 5))
-		{
-			selecao = hit.transform.GetComponent<Selecionavel>();
-			ativacao = hit.transform.GetComponent<Ativavel>();
-		}
-
-		if (selecao != null)
-		{
-			//selecao.Seleciona();
-			descricao.SetActive(true);
-		}
-		else
-		{
-			descricao.SetActive(false);
-		}
-
-		if (ativacao != null)
-		{
-			if (Input.GetKeyDown(KeyCode.E)) ativacao.Ativa();
-		}
+		//Destroy(this);
+		//Destroy(gameObject.GetComponent<Selecionavel>());
 	}
 }
+
