@@ -6,17 +6,21 @@ public class PushStatues : MonoBehaviour
 {
     public int indice;
     public int objetivo;
+    public bool contou;
   
-
     public List<float> posicoes;
-     Vector3 posicaoAtual;
+
+    Vector3 posicaoAtual;
+
     void Update()
     {
         transform.position = new Vector3(posicoes[indice], transform.position.y, transform.position.z);
-     /*   if (indice == objetivo)
+        if (indice == objetivo && contou == false)
         {
-            Debug.Log("acertou");
-        }*/
+            ControlPuzzle.contadorAcertos++;
+            contou = true;
+            Debug.Log("acertou" + ControlPuzzle.contadorAcertos);
+        }
     }
    public void  MoreMove()
     {
