@@ -15,9 +15,16 @@ public class HubEvents : MonoBehaviour
         GetComponent<VideoPlayer>().Play();
     }
 
+    public void Final()
+    {
+        SceneManager.LoadScene("FinalJ2");
+    }
+
+
     public void CarregarIslamico()
     {
         SceneManager.LoadScene("Palacio_Islamico");
     }
 
+  
 }

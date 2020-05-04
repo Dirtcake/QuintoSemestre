@@ -5,18 +5,15 @@ using UnityEngine.Events;
 
 public class TriggerEvent : MonoBehaviour
 {
-    public UnityEvent Triggered;
+    [SerializeField]
+    private UnityEvent Triggered;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
+            Triggered.Invoke();
             Destroy(gameObject);
         }
-    }
-
-    private void OnDestroy()
-    {
-        Triggered.Invoke();
     }
 }
