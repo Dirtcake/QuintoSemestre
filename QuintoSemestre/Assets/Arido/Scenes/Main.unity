@@ -10948,7 +10948,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7d62904d3fd63504083be81c555cb76e, type: 3}
+    m_Font: {fileID: 12800000, guid: 794217e1ac4144c4380e6b91e41328ff, type: 3}
     m_FontSize: 33
     m_FontStyle: 0
     m_BestFit: 0
@@ -12482,7 +12482,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7d62904d3fd63504083be81c555cb76e, type: 3}
+    m_Font: {fileID: 12800000, guid: 794217e1ac4144c4380e6b91e41328ff, type: 3}
     m_FontSize: 33
     m_FontStyle: 0
     m_BestFit: 0
@@ -12494,7 +12494,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: OPcoes
+  m_Text: "OP\xC7\xD5ES"
 --- !u!222 &825000256
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -14580,7 +14580,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7d62904d3fd63504083be81c555cb76e, type: 3}
+    m_Font: {fileID: 12800000, guid: 794217e1ac4144c4380e6b91e41328ff, type: 3}
     m_FontSize: 33
     m_FontStyle: 0
     m_BestFit: 0

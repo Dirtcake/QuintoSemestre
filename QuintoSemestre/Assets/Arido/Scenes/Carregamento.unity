@@ -376,13 +376,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.87058824, b: 0.31764707, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 7d62904d3fd63504083be81c555cb76e, type: 3}
+    m_Font: {fileID: 12800000, guid: 794217e1ac4144c4380e6b91e41328ff, type: 3}
     m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
