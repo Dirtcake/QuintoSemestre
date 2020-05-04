@@ -213,6 +213,6 @@ ScriptedImporter:
       type: 3}
     generatedTextures:
     - {fileID: 4139525130877193900, guid: a342f670441f2474f877a19bfad26168, type: 3}
-    - {fileID: 50815414319241085, guid: a342f670441f2474f877a19bfad26168, type: 3}
-    - {fileID: -252623444575351693, guid: a342f670441f2474f877a19bfad26168, type: 3}
     - {fileID: 2434410285714187709, guid: a342f670441f2474f877a19bfad26168, type: 3}
+    - {fileID: -252623444575351693, guid: a342f670441f2474f877a19bfad26168, type: 3}
+    - {fileID: 50815414319241085, guid: a342f670441f2474f877a19bfad26168, type: 3}
