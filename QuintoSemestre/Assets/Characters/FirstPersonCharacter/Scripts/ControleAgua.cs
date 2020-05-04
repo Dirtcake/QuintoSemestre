@@ -21,6 +21,6 @@ public class ControleAgua : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Barra.value = atual;
+       // Barra.value = atual;
     }
 }

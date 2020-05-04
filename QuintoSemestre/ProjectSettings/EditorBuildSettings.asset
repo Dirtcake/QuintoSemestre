@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/menu.unity
-    guid: d30fc679f622aa64682923749ae65776
+    path: Assets/Arido/Scenes/Hub.unity
+    guid: 187532c66f20d2f4eb9df7db3fa4e1ac
   - enabled: 1
-    path: Assets/Scenes/Carregamento.unity
-    guid: 9c9034dd1ab63bc4ab677e59b9d4bc71
+    path: Assets/Arido/Scenes/FinalJ2.unity
+    guid: 05b5a2c503039344b901d0e5da30dc19
   - enabled: 1
-    path: Assets/Scenes/Main.unity
-    guid: 9aaaf4c1187795e48964bc4ac6e571a5
+    path: Assets/Arido/Scenes/Palacio_Islamico.unity
+    guid: 8934101bf23774147911eabe709ac7c3
   m_configObjects: {}
