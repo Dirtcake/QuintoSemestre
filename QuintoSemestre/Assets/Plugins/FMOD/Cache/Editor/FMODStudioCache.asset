@@ -1,0 +1,2317 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8912688700753831332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StatueTurn/Pitch
+  m_EditorClassIdentifier: 
+  Name: Pitch
+  Min: -5
+  Max: 5
+  Default: 0
+  Exists: 1
+--- !u!114 &-8738240098346133465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodDoorOpen/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 1
+--- !u!114 &-8586318302053577144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Menu/ButtonClick
+  m_EditorClassIdentifier: 
+  Path: event:/Menu/ButtonClick
+  guid: a6d5410d8f73e0459aebb4bf7fdad1b0
+  Banks:
+  - {fileID: 2460958059182835919}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4351232361351346301}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5243
+--- !u!114 &-8019789754522488757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gear/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-7892151781725268912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637240472570000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7522413537857830995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Character/Steps/Steps
+  m_EditorClassIdentifier: 
+  Path: event:/Character/Steps/Steps
+  guid: ba49a873a8344b498de761fc021833f2
+  Banks:
+  - {fileID: 8962909647482371384}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4819812995675694519}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-7361787678398936903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gear/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-7352099756900510469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Interactions/StoneDoorClose
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Interactions/StoneDoorClose
+  guid: 39a39a2d25d83744b2c8bf5c8f9d0bf2
+  Banks:
+  - {fileID: -2885978518179383718}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 5802744841840084736}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5414
+--- !u!114 &-7239227484136477971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-7218761553522974934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637240472570000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6977718328249474212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StatueTurn/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-6808068758145394037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/teste/Desktop/FmodSounds/arido/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637242356380000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1828
+  Exists: 0
+--- !u!114 &-6745119510892021050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gear/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-6674053926277528325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Master.strings.bank
+  SubDir: 
+  lastModified: 637242439380000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1876
+  Exists: 1
+--- !u!114 &-6599003493754280546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gear/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-6589455671693152845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Loops/Wind
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Loops/Wind
+  guid: 5625c88aa4827947ada6567028c725a4
+  Banks:
+  - {fileID: 6915219276963282828}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 2240244430591060241}
+  - {fileID: 5466199311056662375}
+  - {fileID: -354255143304902655}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 31180
+--- !u!114 &-6477908041095976001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Water Font Small/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-6433340699032034085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Menu&HUD.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/teste/Desktop/FmodSounds/arido/Build/Desktop/Menu&HUD.bank
+  SubDir: 
+  lastModified: 637241456320000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 70528
+  Exists: 0
+--- !u!114 &-6408442322059301102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StatueTurn/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 1
+--- !u!114 &-6381480865205530852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Interactions/StatueTurn
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Interactions/StatueTurn
+  guid: c903d5ee2dff5c4098ce79519c20df4e
+  Banks:
+  - {fileID: -2885978518179383718}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 6321984349292072179}
+  - {fileID: -8912688700753831332}
+  - {fileID: -6408442322059301102}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1846
+--- !u!114 &-6072090972928469237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Water Font Small/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 1
+--- !u!114 &-5758785473354582167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-5658626465326442603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StoneDoorOpen/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-5647323357904362546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Tunnel/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-5633371952801330843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227369740000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5550231163461185089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gear/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 1
+--- !u!114 &-5472656779156796392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandfall/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-5470239536720153339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &-5393734419593094730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StatueTurn/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-5357101655741915331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StatueTurn/Pitch
+  m_EditorClassIdentifier: 
+  Name: Pitch
+  Min: -5
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &-5352539558051144670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodDoorOpen/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-5264449264815352346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StatueTurn/Pitch
+  m_EditorClassIdentifier: 
+  Name: Pitch
+  Min: -5
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &-5144435933145889421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637242248390000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5036814765864254529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gear/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-4889595654076466751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637242248390000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4885615077960163307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Loops/Water Font Small
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Loops/Water Font Small
+  guid: 7b81a1a22dfea54db925143d61631c65
+  Banks:
+  - {fileID: 6915219276963282828}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -6072090972928469237}
+  - {fileID: -3699524102402187145}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30000
+--- !u!114 &-4740593091808222094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandfall/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-4525076651930932100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StatueTurn/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-4503869014704729822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StatueTurn/Pitch
+  m_EditorClassIdentifier: 
+  Name: Pitch
+  Min: -5
+  Max: 5
+  Default: 0
+  Exists: 0
+--- !u!114 &-4285208386786122852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandfall/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-3946508092049782950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandfall/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-3810148803975176290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/New Chapter/Novo Capitulo 1
+  m_EditorClassIdentifier: 
+  Path: event:/Music/New Chapter/Novo Capitulo 1
+  guid: d255696102cb9c49b2c2c7133ab0d847
+  Banks:
+  - {fileID: 7909830773372839212}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 3194516655531404253}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 9230
+--- !u!114 &-3699524102402187145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Water Font Small/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-3565153873477904130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interactions.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Interactions.bank
+  SubDir: 
+  lastModified: 637242378710000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3440636662990498424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gear/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-3429728706082723016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gear/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-3387701881099487728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StatueTurn/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-3130684644002680374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gear/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-2976662519240278028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodDoorOpen/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-2936029395929436305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Interactions/WoodDoorOpen
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Interactions/WoodDoorOpen
+  guid: 662c89ee131edb48acca00464b231f4c
+  Banks:
+  - {fileID: -2885978518179383718}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -8738240098346133465}
+  - {fileID: -519118814096704287}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2291
+--- !u!114 &-2885978518179383718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interactions.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Interactions.bank
+  SubDir: 
+  lastModified: 637242439380000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-2829295828336547928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Tunnel/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-2735009346203922383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Novo Capitulo 1/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-2611916383895349193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Water Font Small/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-2552627644234841499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HUB Music/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-2487821568168948177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &-2373335034835027665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ButtonClick/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-1464315720147770890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HUB Music/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 1
+--- !u!114 &-816936796365299383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227369740000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &-519118814096704287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodDoorOpen/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &-398877272524690728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ButtonClick/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-366054464375397741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandfall/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-354255143304902655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 1
+--- !u!114 &-310493269710356853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-236439549789020677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HUB Music/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &-235900466527560518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gear/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-154445933681006906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/teste/Desktop/FmodSounds/arido/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637242356380000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 464576
+  Exists: 0
+--- !u!114 &-58398459823854190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/teste/Desktop/FmodSounds/arido/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227477740000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1012
+  Exists: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -6674053926277528325}
+  - {fileID: 6915219276963282828}
+  - {fileID: -2885978518179383718}
+  - {fileID: -816936796365299383}
+  - {fileID: 2460958059182835919}
+  - {fileID: 7909830773372839212}
+  - {fileID: 8962909647482371384}
+  EditorEvents:
+  - {fileID: -6589455671693152845}
+  - {fileID: 5698253071950368217}
+  - {fileID: -4885615077960163307}
+  - {fileID: 3295729283667348350}
+  - {fileID: 7310210456070595828}
+  - {fileID: 6106380745157598379}
+  - {fileID: -2936029395929436305}
+  - {fileID: -6381480865205530852}
+  - {fileID: 4742499334368529937}
+  - {fileID: -8586318302053577144}
+  - {fileID: 6654800535586960289}
+  - {fileID: -3810148803975176290}
+  - {fileID: -7522413537857830995}
+  - {fileID: -7352099756900510469}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -816936796365299383}
+  StringsBanks:
+  - {fileID: -6674053926277528325}
+  stringsBankWriteTime: 637242439380000000
+  cacheVersion: 3
+--- !u!114 &115700634124626648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Tunnel/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &145027849910564814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StatueTurn/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &325904739618458818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Menu&HUD.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Menu&HUD.bank
+  SubDir: 
+  lastModified: 637241348330000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &476691112876998642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StoneDoorOpen/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &568596006248146386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Menu&HUD.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Menu&HUD.bank
+  SubDir: 
+  lastModified: 637241348330000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &590794211968747379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Novo Capitulo 1/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &644788282966181828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Water Font Small/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &684135040538409052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Water Font Small/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &729832897605429766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Water Font Small/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1005626147130794953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637242248390000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &1171661598542784213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gear/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &1480250277052321567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StoneDoorOpen/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 1
+--- !u!114 &1700291788917102947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Water Font Small/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &2170977210193338567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &2240244430591060241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 1
+--- !u!114 &2241791918822318116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandfall/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 1
+--- !u!114 &2460958059182835919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Menu&HUD.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Menu&HUD.bank
+  SubDir: 
+  lastModified: 637241348330000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &2541060348348340830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodDoorOpen/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &2702087658229741589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &3194516655531404253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Novo Capitulo 1/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 1
+--- !u!114 &3197698763197744346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &3233617579271642151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/HUB Music/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &3295729283667348350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/OneShots/Sandfall
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/OneShots/Sandfall
+  guid: d6981e51a91580428e258cefd76398e9
+  Banks:
+  - {fileID: 6915219276963282828}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -3946508092049782950}
+  - {fileID: 2241791918822318116}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4184
+--- !u!114 &3433711739954295200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637227369740000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3502093814903054730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/teste/Desktop/FmodSounds/arido/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637242356380000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 1152864
+  Exists: 0
+--- !u!114 &4025353393969648626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodDoorOpen/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &4351232361351346301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ButtonClick/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 1
+--- !u!114 &4742499334368529937
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Interactions/Lever
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Interactions/Lever
+  guid: cdc6fbcecfc7e84d9402ed5fcd740fd8
+  Banks:
+  - {fileID: -2885978518179383718}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &4819812995675694519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 6
+  Default: 0
+  Exists: 1
+--- !u!114 &4861696198000128050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &4953972936815045555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodDoorOpen/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5183850434235237948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StatueTurn/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &5291962843119449656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &5337743634997675119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandfall/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &5385401277850176870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interactions.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/teste/Desktop/FmodSounds/arido/Build/Desktop/Interactions.bank
+  SubDir: 
+  lastModified: 637241456320000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 367712
+  Exists: 0
+--- !u!114 &5466199311056662375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &5600839848448435560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Wind/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &5698253071950368217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Loops/Tunnel
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Loops/Tunnel
+  guid: 6a9c11b55f330947883654db5a6b149c
+  Banks:
+  - {fileID: 6915219276963282828}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5647323357904362546}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 20000
+--- !u!114 &5717439587343030337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Steps/Material
+  m_EditorClassIdentifier: 
+  Name: Material
+  Min: 0
+  Max: 4
+  Default: 0
+  Exists: 0
+--- !u!114 &5735815724234257022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637242248390000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5802744841840084736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StoneDoorClose/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 1
+--- !u!114 &6058552456455678612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StoneDoorOpen/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &6106380745157598379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Interactions/Gear
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Interactions/Gear
+  guid: 4d3189eebb990348b376f99af37b4b6c
+  Banks:
+  - {fileID: -2885978518179383718}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -5550231163461185089}
+  - {fileID: -6599003493754280546}
+  - {fileID: -8019789754522488757}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6200
+--- !u!114 &6321984349292072179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/StatueTurn/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &6324562355156028649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Novo Capitulo 1/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &6654800535586960289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Locations/HUB Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Locations/HUB Music
+  guid: 83e09547491f25468843767f36222814
+  Banks:
+  - {fileID: 7909830773372839212}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -1464315720147770890}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26514
+--- !u!114 &6915219276963282828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637242248390000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7084616992279629754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ButtonClick/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &7310210456070595828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/Interactions/StoneDoorOpen
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/Interactions/StoneDoorOpen
+  guid: 15d55974d8ed7044b31a4fcd335acb02
+  Banks:
+  - {fileID: -2885978518179383718}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 1480250277052321567}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &7870715498417016998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/WoodDoorOpen/reverb
+  m_EditorClassIdentifier: 
+  Name: reverb
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &7886026117305945165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Interactions.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Interactions.bank
+  SubDir: 
+  lastModified: 637241348330000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7909830773372839212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637242248390000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7981655882533441205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Tunnel/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &8189782926956260644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sandfall/Volume
+  m_EditorClassIdentifier: 
+  Name: Volume
+  Min: 0
+  Max: 100
+  Default: 100
+  Exists: 0
+--- !u!114 &8602453052701040488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: C:/Users/teste/Desktop/FmodSounds/arido/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637240580560000000
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 80544
+  Exists: 0
+--- !u!114 &8757192668545882817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Gear/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 2
+  Default: 0
+  Exists: 0
+--- !u!114 &8962909647482371384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Player.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Dropbox/arido/Build/Desktop/Player.bank
+  SubDir: 
+  lastModified: 637242429570000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1

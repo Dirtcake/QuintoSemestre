@@ -16,15 +16,26 @@ public class Interacao : MonoBehaviour
         RaycastHit hit;
         Selecionavel selecao = null;
         Ativavel ativacao = null;
+        Puller controle = null;
 
          
             if (Physics.Raycast(raio, out hit, distance)){
                 selecao = hit.transform.GetComponent<Selecionavel>();
                 ativacao = hit.transform.GetComponent<Ativavel>();
+
+                controle = hit.transform.GetComponent<Puller>();
             }
-       
-       
-        
+
+        if (controle != null)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Debug.Log("deveria mexer");
+               
+            }
+            Debug.Log("achou caralho");
+        }
+
 
         if (selecao != null){
             selecao.Selecionar();
