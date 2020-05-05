@@ -7,7 +7,6 @@ public class Interacao : MonoBehaviour
     public float distance = 60;
     Vector3 copia = Vector3.zero;
     
-    
     void Update()
     {
         //raycast 1
@@ -18,24 +17,14 @@ public class Interacao : MonoBehaviour
         Selecionavel selecao = null;
         Ativavel ativacao = null;
 
-        Puller controle = null;
-
          
             if (Physics.Raycast(raio, out hit, distance)){
                 selecao = hit.transform.GetComponent<Selecionavel>();
                 ativacao = hit.transform.GetComponent<Ativavel>();
-                controle = hit.transform.GetComponent<Puller>();
             }
-
-
-
-        if (controle != null)
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                controle.Empurrar();
-            }
-        }
+       
+       
+        
 
         if (selecao != null){
             selecao.Selecionar();
