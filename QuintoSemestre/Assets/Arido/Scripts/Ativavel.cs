@@ -14,7 +14,6 @@ public class Ativavel : MonoBehaviour
 
     public Vector3 inicial;
     public Vector3 final;
-    
 
     public float vel = 2f;
     public float contador_ativo;
@@ -22,7 +21,6 @@ public class Ativavel : MonoBehaviour
     public bool ativo = false;
     public bool controle_de_camera = false;
     public bool vista_panorama = false;
-   
 
     public void Start()
     {
@@ -31,7 +29,6 @@ public class Ativavel : MonoBehaviour
     void Update(){
 
         Quaternion rotacao = transform.rotation;
-       
 
         if (gameObject.tag == "alavanca")
         {
@@ -47,13 +44,13 @@ public class Ativavel : MonoBehaviour
         }
         transform.rotation = rotacao;
 
-
         if (controle_de_camera){
             if (Input.GetMouseButtonDown(1))
             {
                 Camera_Controle_Desativa();
             }
         }
+
 
     }
 
@@ -81,8 +78,6 @@ public class Ativavel : MonoBehaviour
     public void Animacao(){
         ativo = !ativo;
     }
-
-   
 
     public void Camera_Controle()
     {
