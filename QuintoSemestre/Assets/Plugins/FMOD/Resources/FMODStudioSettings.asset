@@ -76,8 +76,14 @@ MonoBehaviour:
   - Platform: 20
     Value: 32
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - Ambience
+  - Interactions
+  - Menu&HUD
+  - Music
+  - Player
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
