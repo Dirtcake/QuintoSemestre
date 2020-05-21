@@ -9,6 +9,7 @@ TagManager:
   - estatua
   - estado
   - errado
+  - Plataforma1
   layers:
   - Default
   - TransparentFX

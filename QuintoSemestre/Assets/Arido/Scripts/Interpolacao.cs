@@ -14,6 +14,7 @@ public class Interpolacao : MonoBehaviour
     bool porta_ativa = false;
     bool estatua_ativa = false;
     bool portapuzzle1 = false;
+    
 
     void Update()
     {
@@ -43,6 +44,17 @@ public class Interpolacao : MonoBehaviour
                 
                 posicao = Vector3.Lerp(posicao, controlado_estado_final, Time.deltaTime * velocidade_anim);
             }
+        }
+
+        if(gameObject.name == "Plataformas")
+        {
+            GameObject jogador = GameObject.Find("Player");
+            if(jogador.GetComponent<HinduPuzzle>().errou_plataforma == true)
+            {
+                posicao = Vector3.Lerp(posicao, controlado_estado_final, Time.deltaTime * velocidade_anim);
+            }
+
+            else posicao = Vector3.Lerp(posicao, controlado_estado_inicial, Time.deltaTime * velocidade_anim);
         }
 
         transform.rotation = rotacao;
