@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class Interactible : MonoBehaviour
 {
@@ -24,10 +25,11 @@ public class Interactible : MonoBehaviour
         {
             selecao = hit.transform.GetComponent<Selecionavel>();
             ativacao = hit.transform.GetComponent<Action>();
+
         }
 
-
-
+        //Debug.Log(taca);
+        
 
         if (selecao != null)
         {
@@ -40,16 +42,7 @@ public class Interactible : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-
                 ativacao.Ativa();
-
-                //Guardando lógica para posteriores correções
-                // if(ativacao.controle_de_camera == true) copia = hit.transform.position;
-                /*if (!ativacao.ativo)
-                {
-                    ativacao.Animacao();
-                    ativacao.Ativa();
-                }*/
             }
         }
     }
