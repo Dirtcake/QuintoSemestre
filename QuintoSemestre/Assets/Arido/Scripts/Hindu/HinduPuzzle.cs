@@ -16,19 +16,19 @@ public class HinduPuzzle : MonoBehaviour
     public String[] ordem_Correta_Plataformas = { "Plataforma1", "Plataforma2", "Plataforma3", "Plataforma4", "Plataforma5" };
     int i = 0;
     float tempo;
-    public bool canvaPuzzle1 = false;
+    public bool canvaPuzzle1;
 
-
-
+    
+    
     void Start()
     {
-        plataformas = new string[5];
+        plataformas = new string [5];  
     }
 
-
+    
     void Update()
     {
-      //  if (GetComponentInChildren<Interacao>().nomeObjeto == "RODASAMSARA")
+        if (Input.GetMouseButtonDown(0) && GetComponentInChildren<Interacao>().nomeObjeto == "RODASAMSARA")
         {
             canvaPuzzle1 = true;
         }
@@ -42,7 +42,7 @@ public class HinduPuzzle : MonoBehaviour
         {
             puzzle1UI.SetActive(true);
         }
-        else if (!canvaPuzzle1) puzzle1UI.SetActive(false);
+        else if(!canvaPuzzle1) puzzle1UI.SetActive(false);
 
         #region PUZZLE 2
         //print(tempo);
@@ -51,32 +51,29 @@ public class HinduPuzzle : MonoBehaviour
         {
             tempo += Time.deltaTime;
         }
-        else if (tempo > 4f)
+        else if(tempo > 4f)
         {
             errou_plataforma = false;
             tempo = 0;
         }
         #endregion
     }
-
+    
     //PUZZLE PARTE 2
     void OnCollisionEnter(Collision collision)
     {
+       
+        if(i < plataformas.Length) { 
+            if(!errou_plataforma) plataformas[i] = collision.transform.name;
 
-        if (i < plataformas.Length)
-        {
-            if (!errou_plataforma) plataformas[i] = collision.transform.name;
-
-            if (plataformas[i] != ordem_Correta_Plataformas[i])
-            {
+            if (plataformas[i] != ordem_Correta_Plataformas[i]) {
 
                 errou_plataforma = true;
-                while (i >= 0)
-                {
-                    plataformas[i] = null;
+                while (i>= 0){ 
+                    plataformas[i] = null; 
                     i--;
                 }
-            }
+            } 
             i++;
         }
     }
@@ -84,8 +81,7 @@ public class HinduPuzzle : MonoBehaviour
     public void ImprimeNome()
     {
         print(gameObject.name);
-
+        
     }
-
 
 }
