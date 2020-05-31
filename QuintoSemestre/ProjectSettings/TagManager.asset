@@ -10,6 +10,7 @@ TagManager:
   - estado
   - errado
   - Plataforma1
+  - plataforma
   layers:
   - Default
   - TransparentFX
