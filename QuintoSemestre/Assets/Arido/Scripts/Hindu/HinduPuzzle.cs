@@ -16,7 +16,7 @@ public class HinduPuzzle : MonoBehaviour
     public String[] ordem_Correta_Plataformas = { "Plataforma1", "Plataforma2", "Plataforma3", "Plataforma4", "Plataforma5" };
     int i = 0;
     float tempo;
-    public bool canvaPuzzle1 = false;
+    public bool canvaPuzzle1;
 
     
     
@@ -28,7 +28,7 @@ public class HinduPuzzle : MonoBehaviour
     
     void Update()
     {
-        if (GetComponentInChildren<Interacao>().nomeObjeto == "RODASAMSARA")
+        if (Input.GetMouseButtonDown(0) && GetComponentInChildren<Interacao>().nomeObjeto == "RODASAMSARA")
         {
             canvaPuzzle1 = true;
         }
