@@ -9,13 +9,10 @@ public class Selecionavel : MonoBehaviour
     MeshRenderer renderer;
     bool selecionado;
 
-    // Start is called before the first frame update
     void Start()
     {
         renderer = GetComponent<MeshRenderer>();
     }
-
-    // Update is called once per frame
     void Update()
     {
 

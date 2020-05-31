@@ -15148,7 +15148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780892675}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -95.58, y: -298.94107, z: 113.39115}
+  m_LocalPosition: {x: -95.58, y: -298.94107, z: 112.73}
   m_LocalScale: {x: 1, y: 2.889, z: 1}
   m_Children:
   - {fileID: 1503125503}
@@ -16974,7 +16974,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 873220844}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -94.24, y: -298.94107, z: 118.21115}
+  m_LocalPosition: {x: -94.24, y: -298.94107, z: 117.801155}
   m_LocalScale: {x: 1, y: 2.889, z: 1}
   m_Children:
   - {fileID: 1614752701}
@@ -19177,6 +19177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 149812f09c3f5904e8be9df5e67a299c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  VideoClips: []
 --- !u!4 &1001228325
 Transform:
   m_ObjectHideFlags: 0
@@ -21301,7 +21302,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129877956}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.7723055, y: 1.3458911, z: -9.89}
+  m_LocalPosition: {x: -6.7723055, y: 1.3458911, z: -10.551148}
   m_LocalScale: {x: 1.1474, y: 1, z: 1}
   m_Children:
   - {fileID: 1833606991}
@@ -38697,7 +38698,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087611750}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.7723055, y: 1.3458911, z: -5.23}
+  m_LocalPosition: {x: -6.7723055, y: 1.3458911, z: -5.64}
   m_LocalScale: {x: 1.1474, y: 1, z: 1}
   m_Children:
   - {fileID: 1490174054}

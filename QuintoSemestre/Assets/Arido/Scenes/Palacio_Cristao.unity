@@ -1319,33 +1319,36 @@ MeshCollider:
   m_GameObject: {fileID: 137194485}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7676536976066799080, guid: ae30a536016fdd8b92a50ea515d8088a, type: 3}
---- !u!114 &137194490
+--- !u!65 &137194490
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137194485}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8667962, y: 1.2909181, z: 0.71490115}
+  m_Center: {x: 2.4930115, y: 2.7891998, z: 12.055172}
+--- !u!114 &137194491
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137194485}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0128c0d6fef41fd4dbe6dbb6a7e7844c, type: 3}
+  m_Script: {fileID: 11500000, guid: 8f0512caa9abf5844b6749f1248be98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controlado_array: []
-  camera_panorama: {fileID: 0}
-  jogador: {fileID: 0}
-  inicial: {x: 0, y: 0, z: 0}
-  final: {x: 0, y: 0, z: 0}
-  vel: 2
-  contador_ativo: 0
-  ativo: 0
-  controle_de_camera: 0
-  vista_panorama: 0
 --- !u!1 &137346042 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -944749817868813205, guid: ae30a536016fdd8b92a50ea515d8088a,
@@ -13723,13 +13726,14 @@ GameObject:
   - component: {fileID: 1411063911}
   - component: {fileID: 1411063910}
   - component: {fileID: 1411063912}
+  - component: {fileID: 1411063913}
   m_Layer: 5
   m_Name: pedra
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1411063909
 RectTransform:
   m_ObjectHideFlags: 0
@@ -13845,6 +13849,18 @@ MonoBehaviour:
   acertos: 0
   distMin: 90
   dist: 0
+--- !u!114 &1411063913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411063908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a7a71ef3c0c2c419283caee3fe63df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1414922792 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7872974901094731299, guid: ae30a536016fdd8b92a50ea515d8088a,
