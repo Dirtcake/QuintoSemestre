@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Assertions.Must;
 using UnityEngine.UI;
 
-public class PuzzleHindu : MonoBehaviour
+public class SamsaraScript : MonoBehaviour
 {
     public GameObject puzzle1Canva;
     public GameObject[] imagens;
