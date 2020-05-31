@@ -13,11 +13,13 @@ public class controleMandamentos : MonoBehaviour
     public static bool arrastando;
     public float distMin;
     public float dist;
+    public GameObject panel;
 
     void Update()
     {
         dist = Vector3.Distance(mandamentos[indice].transform.position, localizacaoObjetivo[indice].transform.position);
 
+       
         if (dist <= distMin)
         {
             arrastando = true;
@@ -74,7 +76,13 @@ public class controleMandamentos : MonoBehaviour
             arrastando = false;
         }
         if (acertos == 10)
+        {
+          //  localizacaoObjetivo[9].transform.position = mandamentos[9].transform.position;
             porta.SetActive(false);
+            panel.SetActive(false);
+            Debug.Log("foi");
+        }
+          
         #endregion
 
     }
