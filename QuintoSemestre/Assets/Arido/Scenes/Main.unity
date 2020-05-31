@@ -11350,7 +11350,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 92aa48f07a40e6d44818b6aa56b538e8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1668963b745e7c143917f8004cedc9b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -30183,6 +30183,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3390ee5b6d728a4a8e21d61bec6991a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  VideoClips: []
 --- !u!4 &2009387268
 Transform:
   m_ObjectHideFlags: 0
