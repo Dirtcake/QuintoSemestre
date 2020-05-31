@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 using UnityEngine.UI;
 using UnityStandardAssets.Characters.FirstPerson;
 using UnityEngine.SceneManagement;
@@ -36,6 +35,7 @@ public class MenuPause : MonoBehaviour
                 Pause();
             }
         }
+
     }
 
     public void Resume()
@@ -65,5 +65,8 @@ public class MenuPause : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("menu");
     }
+
+    
+   
 }
 
