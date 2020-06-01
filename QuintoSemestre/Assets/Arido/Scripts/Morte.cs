@@ -13,14 +13,12 @@ public class Morte : MonoBehaviour
 
     bool morrendo;
 
-    // Start is called before the first frame update
     void Start()
     {
         checkpoint1 = transform.position;
         rotacao_inicial = transform.rotation;
     }
 
-    // Update is called once per frame
     
     private void OnTriggerEnter(Collider other)
     {
@@ -36,12 +34,10 @@ public class Morte : MonoBehaviour
     {
         if (!morrendo)
         {
-
-
             morrendo = true;
 
-            GetComponent<FirstPersonController>().pj_andando = false;
-            GetComponent<CharacterController>().enabled = false;
+            Player.free = false;
+
 
             yield return new WaitForSeconds(1);
 
@@ -66,8 +62,8 @@ public class Morte : MonoBehaviour
 
             yield return new WaitForSeconds(1);
 
-            GetComponent<FirstPersonController>().pj_andando = true;
-            GetComponent<CharacterController>().enabled = true;
+
+            Player.free = true;
 
             morrendo = false;
         }

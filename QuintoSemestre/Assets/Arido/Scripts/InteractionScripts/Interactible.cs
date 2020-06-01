@@ -19,12 +19,14 @@ public class Interactible : MonoBehaviour
         RaycastHit hit;
         Selecionavel selecao = null;
         Action ativacao = null;
+        Puller puller = null;
 
 
         if (Physics.Raycast(raio, out hit, distance))
         {
             selecao = hit.transform.GetComponent<Selecionavel>();
             ativacao = hit.transform.GetComponent<Action>();
+            puller = hit.transform.GetComponent<Puller>();
 
         }
 
@@ -37,6 +39,14 @@ public class Interactible : MonoBehaviour
            if(Hud != null) Hud.SetActive(true);
         }
         else if (Hud != null) Hud.SetActive(false);
+
+        if (puller != null)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                puller.Move();
+            }
+        }
 
         if (ativacao != null)
         {

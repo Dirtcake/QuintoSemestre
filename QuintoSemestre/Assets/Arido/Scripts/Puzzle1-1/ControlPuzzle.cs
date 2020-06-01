@@ -5,13 +5,15 @@ using UnityEngine;
 public class ControlPuzzle : MonoBehaviour
 {
     public static int contadorAcertos;
-    public GameObject porta;
+    public GameObject portaAberta,portaFechada,animacao;
     void Update()
     {
         if(contadorAcertos >= 5)
         {
-            porta.SetActive(false);
-            Debug.Log("abriu");
+            portaAberta.SetActive(true);
+            portaFechada.SetActive(false);
+            Instantiate(animacao);
+            Destroy(this);
         }
     }
 }

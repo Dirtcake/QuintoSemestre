@@ -15,7 +15,6 @@ public class Action : MonoBehaviour
 	{
 		 if(alavanca != null) alavanca.Play();
 		//evento.Play();
-
 		Instantiate(Cinematic);
 
 		//Destroy(this);
