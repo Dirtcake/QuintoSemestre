@@ -8,7 +8,7 @@ public class Ativavel : MonoBehaviour
    
     public GameObject[] controlado_array;
     public GameObject camera_panorama;
-    public FirstPersonController jogador;
+    //public Player jogador;
 
    
 
@@ -22,36 +22,32 @@ public class Ativavel : MonoBehaviour
     public bool controle_de_camera = false;
     public bool vista_panorama = false;
 
-    public void Start()
-    {
-          
-    }
+
     void Update(){
 
-        Quaternion rotacao = transform.rotation;
+            Quaternion rotacao = transform.rotation;
 
-        if (gameObject.tag == "alavanca")
-        {
-            if (ativo)
+            if (gameObject.tag == "alavanca")
             {
-                rotacao = Quaternion.Slerp(rotacao, Quaternion.Euler(final), Time.deltaTime * vel);
+                if (ativo)
+                {
+                    rotacao = Quaternion.Slerp(rotacao, Quaternion.Euler(final), Time.deltaTime * vel);
 
-                if (transform.rotation == Quaternion.Euler(final)) ativo = false;
+                    if (transform.rotation == Quaternion.Euler(final)) ativo = false;
 
+                }
+
+                else rotacao = Quaternion.Slerp(rotacao, Quaternion.Euler(inicial), Time.deltaTime * vel);
             }
+            transform.rotation = rotacao;
 
-            else rotacao = Quaternion.Slerp(rotacao, Quaternion.Euler(inicial), Time.deltaTime * vel);
-        }
-        transform.rotation = rotacao;
-
-        if (controle_de_camera){
-            if (Input.GetMouseButtonDown(1))
+            if (controle_de_camera)
             {
-                Camera_Controle_Desativa();
+                if (Input.GetMouseButtonDown(1))
+                {
+                    Camera_Controle_Desativa();
+                }
             }
-        }
-
-
     }
 
    
@@ -83,7 +79,7 @@ public class Ativavel : MonoBehaviour
     {
         camera_panorama.SetActive(true);
         vista_panorama = true;
-        jogador.pj_andando = false;
+        Player.free = false;
         
     }
 
@@ -91,7 +87,7 @@ public class Ativavel : MonoBehaviour
     {
         camera_panorama.SetActive(false);
         vista_panorama = false;
-        jogador.pj_andando = true;
+        Player.free = true;
     }
 
 }

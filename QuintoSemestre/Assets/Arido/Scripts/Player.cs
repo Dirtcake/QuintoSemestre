@@ -13,6 +13,8 @@ public class Player : MonoBehaviour
     bool isAgachado;
     float altura = 2;
 
+    public static bool free = true;
+
     const float VELO_PADRAO = 5, VELO_CORRENDO = 8, VELO_AGACHADO = 2.5F;
     const float ALTURA_PE = 2, ALTURA_AGACHADO = 0;
 
@@ -24,30 +26,33 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        float rotY = Input.GetAxis("Mouse X") * 100;
-        transform.Rotate(0, rotY * Time.deltaTime, 0);
-
-        if (controlador.isGrounded)
+        if (free)
         {
-            moveY = 0;
-            if (Input.GetKeyDown(KeyCode.Space)) moveY = 14;
+            float rotY = Input.GetAxis("Mouse X") * 100;
+            transform.Rotate(0, rotY * Time.deltaTime, 0);
+
+            if (controlador.isGrounded)
+            {
+                moveY = 0;
+                if (Input.GetKeyDown(KeyCode.Space)) moveY = 14;
+            }
+
+            moveY -= gravidade * Time.deltaTime;
+
+            Vector3 move = Vector3.zero;
+            move += Input.GetAxis("Horizontal") * transform.right * velocidade;
+            move += Input.GetAxis("Vertical") * transform.forward * velocidade;
+            move += moveY * Vector3.up;
+            controlador.Move(move * Time.deltaTime);
+
+            if (controlador.isGrounded)
+                agachar();
+
+            if (!isAgachado && controlador.isGrounded)
+                Correr();
+
+            controlador.height = Mathf.Lerp(controlador.height, altura, 3 * Time.deltaTime);
         }
-
-        moveY -= gravidade * Time.deltaTime;
-
-        Vector3 move = Vector3.zero;
-        move += Input.GetAxis("Horizontal") * transform.right * velocidade;
-        move += Input.GetAxis("Vertical") * transform.forward * velocidade;
-        move += moveY * Vector3.up;
-        controlador.Move(move * Time.deltaTime);
-
-        if(controlador.isGrounded)
-        agachar();
-
-        if(!isAgachado && controlador.isGrounded)
-        Correr();
-
-        controlador.height = Mathf.Lerp(controlador.height, altura, 3 * Time.deltaTime);
     }
 
     void Correr() 

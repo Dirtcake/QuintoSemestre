@@ -14,8 +14,11 @@ public class Visao : MonoBehaviour
 
     void Update()
     {
+        if (Player.free)
+        {
             rotX -= Input.GetAxis("Mouse Y") * 100 * Time.deltaTime;
             rotX = Mathf.Clamp(rotX, -45, 45);
             transform.localEulerAngles = rotX * Vector3.right;
+        }
     }
 }

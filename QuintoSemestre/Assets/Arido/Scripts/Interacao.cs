@@ -30,7 +30,7 @@ public class Interacao : MonoBehaviour
             selecao.Selecionar();
         }
 
-        if(ativacao != null){
+        if (ativacao != null){
             if (Input.GetMouseButtonDown(0))
             {
                 //Guardando lógica para posteriores correções
