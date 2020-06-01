@@ -45,18 +45,55 @@ public class SamsaraScript : MonoBehaviour
     void Update()
     {
 
+        Ray raio = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Debug.DrawRay(raio.origin, raio.direction * 60);
 
+        RaycastHit hit;
+
+        if (Physics.Raycast(raio, out hit, 60))
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                //SetaPosicao(hit.transform.gameObject);
+            }
+
+        }
+    
         if (concluido)
         {
             plataformasObjeto.GetComponent<Interpolacao>().enabled = true;
             habilitaCanvas.canvaPuzzle1 = false;
         }
-        
+
        
     }
+    Vector3 pos1, pos2;
+    Quaternion rot1, rot2;
+    GameObject copiaPeca;
+    //void SetaPosicao(GameObject peca)
+    //{
+    //    if(clique == 1)
+    //    {
+    //        copiaPeca = peca;
+    //        pos1 = peca.transform.position;
+    //        rot1 = peca.transform.rotation;
+    //        peca.transform.SetPositionAndRotation(new Vector3(0, 0, 0), new Quaternion(0, 0, 0, 0));
+    //        print(pos1 + " " + rot1);
+    //        clique++;
+    //    }
+
+    //    else if(clique == 2)
+    //    {
+    //        peca.transform.SetPositionAndRotation(pos1,rot1);
+
+    //        clique = 1;
+    //    }
+        //
+
+    //}
 
 
-
+   
     public void Imprimir(Button buton)
     {
         if(clique == 1)
@@ -102,4 +139,8 @@ public class SamsaraScript : MonoBehaviour
         //print(buton.name);
         #endregion
     }
+
+    
+
+
 }

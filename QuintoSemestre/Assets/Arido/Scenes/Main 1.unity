@@ -1306,6 +1306,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f0512caa9abf5844b6749f1248be98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  M_selecionado: {fileID: 0}
+  M_descelecionado: {fileID: 0}
 --- !u!114 &84526381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1321,7 +1323,6 @@ MonoBehaviour:
   controlado_array:
   - {fileID: 1583425480}
   camera_panorama: {fileID: 1999824016}
-  jogador: {fileID: 1775622650}
   inicial: {x: 20, y: 0, z: 0}
   final: {x: -20, y: 0, z: 0}
   vel: 3
@@ -2365,6 +2366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f0512caa9abf5844b6749f1248be98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  M_selecionado: {fileID: 0}
+  M_descelecionado: {fileID: 0}
 --- !u!65 &168298527
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11576,8 +11579,10 @@ MonoBehaviour:
   estatua1: {fileID: 1583425480}
   estatua2: {fileID: 1213267804}
   estatua3: {fileID: 1468342194}
-  portaprincipal: {fileID: 857642034}
-  camera_porta: {fileID: 359315434}
+  animacaoFinal: {fileID: 0}
+  portaAberta: {fileID: 0}
+  portaFechada: {fileID: 0}
+  cameraPanoramica: {fileID: 0}
 --- !u!1001 &772347149
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15242,6 +15247,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f0512caa9abf5844b6749f1248be98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  M_selecionado: {fileID: 0}
+  M_descelecionado: {fileID: 0}
 --- !u!65 &1016203208
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15320,7 +15327,6 @@ MonoBehaviour:
   - {fileID: 1583425480}
   - {fileID: 168298524}
   camera_panorama: {fileID: 1999824016}
-  jogador: {fileID: 1775622650}
   inicial: {x: 20, y: 0, z: 0}
   final: {x: -20, y: 0, z: 0}
   vel: 3
@@ -16386,6 +16392,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f0512caa9abf5844b6749f1248be98b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  M_selecionado: {fileID: 0}
+  M_descelecionado: {fileID: 0}
 --- !u!65 &1076150938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16461,7 +16469,6 @@ MonoBehaviour:
   controlado_array:
   - {fileID: 1213267804}
   camera_panorama: {fileID: 1999824016}
-  jogador: {fileID: 1775622650}
   inicial: {x: 20, y: 0, z: 0}
   final: {x: -20, y: 0, z: 0}
   vel: 3
@@ -30171,6 +30178,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VideoClips: []
+  tutoImages: []
+  fadeIn_Out: []
+  fadeout: {fileID: 0}
 --- !u!4 &2009387268
 Transform:
   m_ObjectHideFlags: 0

@@ -29,6 +29,9 @@ public class Interacao : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
                 {
                     nomeObjeto = hit.transform.name;
+                    
+
+
                 }
 
             }
@@ -67,5 +70,7 @@ public class Interacao : MonoBehaviour
         }
     }
 
-    }
+   
+
+}
 

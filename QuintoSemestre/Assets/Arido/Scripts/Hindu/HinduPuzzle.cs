@@ -8,8 +8,7 @@ using UnityEngine.UI;
 
 public class HinduPuzzle : MonoBehaviour
 {
-    //public Canvas puzzle1;
-    public GameObject plataformas_Obj;
+   
     public GameObject puzzle1UI;
     public String[] plataformas;
     public bool errou_plataforma = false;
