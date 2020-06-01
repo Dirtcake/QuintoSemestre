@@ -13,7 +13,12 @@ public class cristaoChao : MonoBehaviour
     public GameObject porta;
     public GameObject[] plataformasObj;
     public String[] ordem_Correta_Plataformas;
+    MeshRenderer render;
 
+    private void Start()
+    {
+        render = GetComponent<MeshRenderer>();
+    }
     void Update()
     {
         if(errou_plataforma == true)
@@ -45,7 +50,11 @@ public class cristaoChao : MonoBehaviour
                     Debug.Log("acertou");
                     indice++;
                     if (indice == 10)
+                    {
                         Debug.Log("parabens krl ");
+                        porta.SetActive(false);
+                    }
+
                 }
                 else
                     errou_plataforma = true;

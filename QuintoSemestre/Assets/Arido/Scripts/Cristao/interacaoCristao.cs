@@ -7,9 +7,9 @@ public class interacaoCristao : MonoBehaviour
     public float distance = 60;
     public string nomeObjeto;
     public GameObject panel;
-   // public 
     void Update()
     {
+        
         Ray raio = Camera.main.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(raio.origin, raio.direction * distance);
 
