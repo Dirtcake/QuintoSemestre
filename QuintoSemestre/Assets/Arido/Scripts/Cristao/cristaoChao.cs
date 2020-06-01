@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class cristaoChao : MonoBehaviour
 {
 
-    public bool errou_plataforma = false; 
+    public static bool errou_plataforma = false; 
     public int indice = 0;
     public GameObject porta;
     public GameObject[] plataformasObj;
@@ -46,7 +46,7 @@ public class cristaoChao : MonoBehaviour
             {
                 if ( other.name == ordem_Correta_Plataformas[indice] )
                 {
-                    plataformasObj[indice].SetActive(false);
+                    //plataformasObj[indice].SetActive(false);
                     Debug.Log("acertou");
                     indice++;
                     if (indice == 10)
