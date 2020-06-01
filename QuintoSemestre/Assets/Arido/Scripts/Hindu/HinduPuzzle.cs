@@ -9,13 +9,11 @@ using UnityEngine.UI;
 public class HinduPuzzle : MonoBehaviour
 {
    
-    public GameObject puzzle1UI;
     public String[] plataformas;
     public bool errou_plataforma = false;
     public String[] ordem_Correta_Plataformas = { "Plataforma1", "Plataforma2", "Plataforma3", "Plataforma4", "Plataforma5" };
     int i = 0;
     float tempo;
-    public bool canvaPuzzle1 = false;
 
     
     
@@ -27,21 +25,7 @@ public class HinduPuzzle : MonoBehaviour
     
     void Update()
     {
-        if (GetComponentInChildren<Interacao>().nomeObjeto == "RODASAMSARA")
-        {
-            canvaPuzzle1 = true;
-        }
-
-        if (Input.GetMouseButtonDown(1))
-        {
-            canvaPuzzle1 = false;
-        }
-
-        if (canvaPuzzle1)
-        {
-            puzzle1UI.SetActive(true);
-        }
-        else if(!canvaPuzzle1) puzzle1UI.SetActive(false);
+        
 
         #region PUZZLE 2
         //print(tempo);
