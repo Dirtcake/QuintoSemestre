@@ -1,32 +1,32 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Selecionavel : MonoBehaviour
 {
-  
-
     MeshRenderer renderer;
     bool selecionado;
+
+    public Material M_selecionado, M_descelecionado;
 
     void Start()
     {
         renderer = GetComponent<MeshRenderer>();
     }
+
     void Update()
     {
-
     }
 
     private void LateUpdate()
     {
         if (selecionado){
-            renderer.material.SetColor("_EmissionColor", Color.grey);
-            renderer.material.EnableKeyword("_EMISSION");
+            renderer.material = M_selecionado;
         }
 
         else{
-            renderer.material.DisableKeyword("_EMISSION"); 
+            renderer.material = M_descelecionado;
         }
 
         selecionado = false;
