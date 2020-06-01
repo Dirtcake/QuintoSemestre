@@ -5,22 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Arido/Scenes/menu.unity
     guid: d30fc679f622aa64682923749ae65776
-  - enabled: 1
+  - enabled: 0
     path: Assets/Arido/Scenes/Carregamento.unity
     guid: 9c9034dd1ab63bc4ab677e59b9d4bc71
-  - enabled: 1
+  - enabled: 0
     path: Assets/Arido/Scenes/Main.unity
     guid: 9aaaf4c1187795e48964bc4ac6e571a5
-  - enabled: 1
+  - enabled: 0
     path: Assets/Arido/Scenes/Hub.unity
     guid: 187532c66f20d2f4eb9df7db3fa4e1ac
-  - enabled: 1
+  - enabled: 0
     path: Assets/Arido/Scenes/Palacio_Islamico.unity
     guid: 8934101bf23774147911eabe709ac7c3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Arido/Scenes/FinalJ2.unity
     guid: 05b5a2c503039344b901d0e5da30dc19
   - enabled: 1
