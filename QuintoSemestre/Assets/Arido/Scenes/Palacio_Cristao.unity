@@ -13766,8 +13766,13 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -7.0999756, y: 0}
   m_SizeDelta: {x: -204.4, y: 0}
+=======
+  m_AnchoredPosition: {x: 0.000030517578, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+>>>>>>> parent of 03224f4... puzzle2 com cores
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1411063910
 MonoBehaviour:
@@ -13845,6 +13850,32 @@ MonoBehaviour:
   acertos: 0
   distMin: 90
   dist: 0
+<<<<<<< HEAD
+=======
+  localizacaoObjetivo:
+  - {fileID: 687939275}
+  - {fileID: 16111774}
+  - {fileID: 1116108986}
+  - {fileID: 282915239}
+  - {fileID: 904434473}
+  - {fileID: 1101610246}
+  - {fileID: 1150669593}
+  - {fileID: 334561703}
+  - {fileID: 2139323045}
+  - {fileID: 859539764}
+--- !u!114 &1411063913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1411063908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a7a71ef3c0c2c419283caee3fe63df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> parent of 03224f4... puzzle2 com cores
 --- !u!1 &1414922792 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7872974901094731299, guid: ae30a536016fdd8b92a50ea515d8088a,

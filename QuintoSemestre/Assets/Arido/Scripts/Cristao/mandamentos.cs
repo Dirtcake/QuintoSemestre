@@ -14,12 +14,7 @@ public class mandamentos : MonoBehaviour
         
         if (dist <= distMin)
         {
-            transform.position = objetivo.transform.position;
-            if (ponto == 1)
-            {
-                controleMandamentos.acertos++;
-                ponto--;
-            }
+            transform.position = objetivo.transform.position;   
         }
     }
 }
