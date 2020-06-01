@@ -6,7 +6,9 @@ public class Interacao : MonoBehaviour
 {
     public float distance = 60;
     Vector3 copia = Vector3.zero;
-    
+    public string nomeObjeto;
+    public GameObject Hud;
+
     void Update()
     {
         //raycast 1
@@ -16,11 +18,19 @@ public class Interacao : MonoBehaviour
         RaycastHit hit;
         Selecionavel selecao = null;
         Ativavel ativacao = null;
+        Action acao = null;
 
-         
-            if (Physics.Raycast(raio, out hit, distance)){
+
+        if (Physics.Raycast(raio, out hit, distance)){
                 selecao = hit.transform.GetComponent<Selecionavel>();
                 ativacao = hit.transform.GetComponent<Ativavel>();
+                acao = hit.transform.GetComponent<Action>();
+
+            if (Input.GetMouseButtonDown(0))
+                {
+                    nomeObjeto = hit.transform.name;
+                }
+
             }
        
        
@@ -28,7 +38,10 @@ public class Interacao : MonoBehaviour
 
         if (selecao != null){
             selecao.Selecionar();
+            if (Hud != null) Hud.SetActive(true);
+
         }
+        else if (Hud != null) Hud.SetActive(false);
 
         if (ativacao != null){
             if (Input.GetMouseButtonDown(0))
@@ -41,9 +54,18 @@ public class Interacao : MonoBehaviour
                     ativacao.Animacao();
                     ativacao.Ativa();
                 }
+
+
             }
-        }        
-     }
+        }
+        if (acao != null)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                acao.Ativa();
+            }
+        }
+    }
 
     }
 
