@@ -11,6 +11,7 @@ TagManager:
   - errado
   - Plataforma1
   - plataforma
+  - samsara
   layers:
   - Default
   - TransparentFX

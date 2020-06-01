@@ -7,22 +7,18 @@ using UnityEngine.UI;
 
 public class SamsaraScript : MonoBehaviour
 {
-    public GameObject puzzle1Canva;
+
     public GameObject[] imagens;
     public Transform[] posicoes_atuais;
     public Vector3[] posicoes_iniciais;
 
-
-
-
     GameObject plataformasObjeto;
     GameObject jogador;
-    HinduPuzzle habilitaCanvas;
-    Vector3 posicao;
-    Quaternion rot;
-   // GameObject pai;
-    Button filho;
-   // string nomeBotao;
+
+    Vector3 pos1, pos2;
+    Quaternion rot1, rot2;
+    GameObject copiaPeca;
+
     public int clique = 1;
     public int contadorAcertos = 0;
     public bool concluido;
@@ -53,7 +49,7 @@ public class SamsaraScript : MonoBehaviour
 
         if (Physics.Raycast(raio, out hit, 60))
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && hit.transform.tag == "samsara")
             {
                 SetaPosicao(hit.transform.gameObject);
             }
@@ -68,9 +64,7 @@ public class SamsaraScript : MonoBehaviour
 
        
     }
-    Vector3 pos1, pos2;
-    Quaternion rot1, rot2;
-    GameObject copiaPeca;
+   
     void SetaPosicao(GameObject peca)
     {
         if (clique == 1)

@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 99947826}
   m_Layer: 0
   m_Name: 2
-  m_TagString: Untagged
+  m_TagString: samsara
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6916,7 +6916,7 @@ MonoBehaviour:
   - Plataforma3
   - Plataforma4
   - Plataforma5
-  - Plataforma5
+  - Plataforma6
 --- !u!114 &821503499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6924,7 +6924,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 821503497}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 05ec5cf00ca181d45a42ba1870e148c3, type: 3}
   m_Name: 
@@ -8005,7 +8005,7 @@ GameObject:
   - component: {fileID: 1141505816}
   m_Layer: 0
   m_Name: 4
-  m_TagString: Untagged
+  m_TagString: samsara
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8156,7 +8156,7 @@ GameObject:
   - component: {fileID: 1149822261}
   m_Layer: 0
   m_Name: 6
-  m_TagString: Untagged
+  m_TagString: samsara
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9530,7 +9530,7 @@ GameObject:
   - component: {fileID: 1763174843}
   m_Layer: 0
   m_Name: 3
-  m_TagString: Untagged
+  m_TagString: samsara
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10756,7 +10756,7 @@ GameObject:
   - component: {fileID: 2110120088}
   m_Layer: 0
   m_Name: 1
-  m_TagString: Untagged
+  m_TagString: samsara
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10843,13 +10843,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110120087}
-  m_LocalRotation: {x: -0.866273, y: 0.022143187, z: 0.029353647, w: 0.49821603}
-  m_LocalPosition: {x: -0.6487198, y: 40.584, z: -48.975}
+  m_LocalRotation: {x: -0.8666585, y: 0.013263626, z: 0.01391576, w: 0.4985312}
+  m_LocalPosition: {x: -0.2, y: 40.584, z: -47.7003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: -59.824, y: -176.716, z: 181.03899}
+  m_LocalEulerAnglesHint: {x: -59.824, y: -178.75801, z: 181.03899}
 --- !u!64 &2110390163
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -46350,7 +46350,7 @@ GameObject:
   - component: {fileID: 6067321506997780576}
   m_Layer: 0
   m_Name: 5
-  m_TagString: Untagged
+  m_TagString: samsara
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56367,7 +56367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &7474354769825491379
 MonoBehaviour:
   m_ObjectHideFlags: 0

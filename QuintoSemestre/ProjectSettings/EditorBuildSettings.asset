@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Arido/Scenes/Hindu_Palacio/Palacio_Hindu_Final.unity
+    guid: f5343b400de83274cac224b3e7cf31da
   m_configObjects: {}
