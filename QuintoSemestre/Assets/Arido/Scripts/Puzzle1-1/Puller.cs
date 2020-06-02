@@ -6,24 +6,17 @@ public class Puller : MonoBehaviour
 {
     public bool positivo;
     public PushStatues status;
-    private void OnTriggerEnter(Collider other)
-    {
 
-        if (other.CompareTag("Player"))
+
+    public void Move()
+    {
+        if (positivo == true)
         {
-            if (positivo == true)
-            {
-                status.MoreMove();
-               // status.indice++;
-                Debug.Log("subiu");
-            }
-            else
-            {
-                status.LessMove();
-                status.indice--;
-                Debug.Log("desceu");
-            }
-            Debug.Log("bateu errado");
+            status.MoreMove();
+        }
+        else
+        {
+            status.LessMove();
         }
     }
 }
