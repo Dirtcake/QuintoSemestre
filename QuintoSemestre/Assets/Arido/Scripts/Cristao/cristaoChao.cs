@@ -50,7 +50,6 @@ public class cristaoChao : MonoBehaviour
                     indice++;
                     if (indice == 10)
                     {
-                        Debug.Log("parabens krl ");
                         porta.SetActive(false);
                         portaAberta.SetActive(true);
                     }

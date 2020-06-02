@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HubSpawnManager : MonoBehaviour
 {
@@ -19,7 +20,9 @@ public class HubSpawnManager : MonoBehaviour
 
         void Awake()
         {
-            if (Instance == null)
+        atual = tutorial;
+
+        if (Instance == null)
             {
                 DontDestroyOnLoad(gameObject);
                 Instance = this;
@@ -32,8 +35,11 @@ public class HubSpawnManager : MonoBehaviour
 
     public static Vector3 tutorial = new Vector3(2.98f,4.08f,-32.03f);
     public static Vector3 islamismo = new Vector3(-30.93f, 18.5f, 0f);
+    public static Vector3 cristao = new Vector3(3.6f, 18.5f, 34.8f);
 
-    public static Vector3 atual = tutorial;
+    public static Vector3 atual;
+
+
 
     /*private void Start()
     {

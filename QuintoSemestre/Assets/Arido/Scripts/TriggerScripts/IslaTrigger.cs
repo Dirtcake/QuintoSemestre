@@ -9,8 +9,6 @@ public class IslaTrigger : MonoBehaviour
 {
     public List<VideoClip> VideoClips;
 
-
-
     public void trocaCena()
     {
         HubSpawnManager.atual = HubSpawnManager.islamismo;

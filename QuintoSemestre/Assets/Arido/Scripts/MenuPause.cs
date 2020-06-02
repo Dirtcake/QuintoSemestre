@@ -45,7 +45,7 @@ public class MenuPause : MonoBehaviour
         Time.timeScale = 1f;
         JogoPausado = false;
         
-        jogador.pj_andando = true;
+        Player.free = true;
        
 
         
@@ -57,7 +57,7 @@ public class MenuPause : MonoBehaviour
       
         Time.timeScale = 0f;
         JogoPausado = true;
-        jogador.pj_andando = false;
+        Player.free = false;
     }
 
     public void VoltarMenu()

@@ -6304,10 +6304,10 @@ VideoPlayer:
   m_TargetMaterialRenderer: {fileID: 0}
   m_TargetMaterialProperty: _MainTex
   m_RenderMode: 1
-  m_AspectRatio: 2
+  m_AspectRatio: 3
   m_DataSource: 0
   m_PlaybackSpeed: 1
-  m_AudioOutputMode: 2
+  m_AudioOutputMode: 0
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
@@ -11894,32 +11894,32 @@ PrefabInstance:
     - target: {fileID: 6808209864486388922, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.43971917
+      value: -0.6651689
       objectReference: {fileID: 0}
     - target: {fileID: 6808209864486388922, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8981353
+      value: 0.746693
       objectReference: {fileID: 0}
     - target: {fileID: 6808209864486388922, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.56
+      value: 16.505
       objectReference: {fileID: 0}
     - target: {fileID: 6808209864486388922, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.000000011562237
+      value: 0.000000021815541
       objectReference: {fileID: 0}
     - target: {fileID: 6808209864486388922, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.8
+      value: 0.282
       objectReference: {fileID: 0}
     - target: {fileID: 6808209864486388922, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -52.172
+      value: -83.39101
       objectReference: {fileID: 0}
     - target: {fileID: 7645233657308923716, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
@@ -11929,32 +11929,32 @@ PrefabInstance:
     - target: {fileID: 7645233657308923716, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.56680715
+      value: 0.7157841
       objectReference: {fileID: 0}
     - target: {fileID: 7645233657308923716, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8238505
+      value: 0.69832176
       objectReference: {fileID: 0}
     - target: {fileID: 7645233657308923716, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.88
+      value: 0.678
       objectReference: {fileID: 0}
     - target: {fileID: 7645233657308923716, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.000000011562237
+      value: 0.000000021815541
       objectReference: {fileID: 0}
     - target: {fileID: 7645233657308923716, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.5
+      value: 15.854
       objectReference: {fileID: 0}
     - target: {fileID: 7645233657308923716, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 69.056
+      value: 91.415
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d9e83821d50a654eb5e6ac882b83fe4, type: 3}
@@ -18784,6 +18784,7 @@ GameObject:
   - component: {fileID: 1624267684}
   - component: {fileID: 1624267683}
   - component: {fileID: 1624267682}
+  - component: {fileID: 1624267685}
   m_Layer: 0
   m_Name: triggerFinal
   m_TagString: Untagged
@@ -18865,6 +18866,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624267680}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1624267685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624267680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6ada50be1585834c8147359fc61d62d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Triggered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 644355207}
+        m_MethodName: trocaCena
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1625245422 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7376542281405924157, guid: ae30a536016fdd8b92a50ea515d8088a,
@@ -22950,7 +22977,7 @@ PrefabInstance:
     - target: {fileID: 570685195040879678, guid: e6025cac2c9ce0c418ddd7e211da5526,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.07
+      value: 1.062
       objectReference: {fileID: 0}
     - target: {fileID: 570685195040879678, guid: e6025cac2c9ce0c418ddd7e211da5526,
         type: 3}

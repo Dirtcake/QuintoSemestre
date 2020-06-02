@@ -17,7 +17,8 @@ public class cristaoVideo : MonoBehaviour
     }
     public void trocaCena()
     {
-        fadeout.fade_out();
-        SceneManager.LoadScene("Hub");
+        HubSpawnManager.atual = HubSpawnManager.cristao;
+        SceneManager.LoadScene("Hub",LoadSceneMode.Single);
     }
+
 }
