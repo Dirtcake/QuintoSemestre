@@ -23,7 +23,7 @@ public class HubEvents : MonoBehaviour
 
     public void CarregarIslamico()
     {
-        SceneManager.LoadScene("Palacio_Islamico");
+        SceneManager.LoadScene("Palacio_Islamico",LoadSceneMode.Single);
     }
 
   

@@ -46,18 +46,20 @@ public class HinduPuzzle : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
        
-        if(i < plataformas.Length) { 
-            if(!errou_plataforma) plataformas[i] = collision.transform.name;
-
-            if (plataformas[i] != ordem_Correta_Plataformas[i]) {
-
-                errou_plataforma = true;
-                while (i>= 0){ 
-                    plataformas[i] = null; 
-                    i--;
+        if(i < plataformas.Length) {
+                if (!errou_plataforma) { 
+                    plataformas[i] = collision.transform.name; 
                 }
-            } 
-            i++;
+
+                if (plataformas[i] != ordem_Correta_Plataformas[i]) {
+
+                    errou_plataforma = true;
+                    while (i>= 0){ 
+                        plataformas[i] = null; 
+                        i--;
+                    }
+                } 
+                i++;
         }
     }
 
