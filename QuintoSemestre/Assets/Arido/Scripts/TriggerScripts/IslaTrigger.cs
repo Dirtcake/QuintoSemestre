@@ -13,11 +13,15 @@ public class IslaTrigger : MonoBehaviour
 
     public void trocaCena()
     {
-        SceneManager.LoadScene("FinalJ2");
+        HubSpawnManager.atual = HubSpawnManager.islamismo;
+        SceneManager.LoadScene("Hub",LoadSceneMode.Single);
     }
 
     public void NomearLocal()
     {
+       /* PlayerPrefs.SetString(HubSpawnManager.BANCOKEY, HubSpawnManager.ISLAMICOKEY);
+        PlayerPrefs.Save();*/
+
         GetComponent<VideoPlayer>().clip = VideoClips[0];
         GetComponent<VideoPlayer>().Play();
     }

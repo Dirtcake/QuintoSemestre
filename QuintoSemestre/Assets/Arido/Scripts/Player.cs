@@ -22,6 +22,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         controlador = GetComponent<CharacterController>();
+        transform.position = HubSpawnManager.atual;
     }
 
     void Update()

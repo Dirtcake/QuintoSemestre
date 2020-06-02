@@ -2258,6 +2258,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: eba283ae26450cbe302eaf87e365bd38, type: 2}
+    - target: {fileID: -5305077050295150012, guid: 74990d1207872d74eb602b977b8268d1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -5058203088580709550, guid: 74990d1207872d74eb602b977b8268d1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2358,6 +2363,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: eba283ae26450cbe302eaf87e365bd38, type: 2}
+    - target: {fileID: -312702527062993860, guid: 74990d1207872d74eb602b977b8268d1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3445028777459833939, guid: 74990d1207872d74eb602b977b8268d1,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2441,7 +2451,7 @@ MeshCollider:
   m_GameObject: {fileID: 299662353}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 30
@@ -17470,7 +17480,7 @@ MeshCollider:
   m_GameObject: {fileID: 1781927306}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 30
