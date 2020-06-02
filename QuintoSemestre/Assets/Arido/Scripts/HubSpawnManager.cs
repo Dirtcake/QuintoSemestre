@@ -20,7 +20,6 @@ public class HubSpawnManager : MonoBehaviour
 
         void Awake()
         {
-        atual = tutorial;
 
         if (Instance == null)
             {
@@ -36,9 +35,23 @@ public class HubSpawnManager : MonoBehaviour
     public static Vector3 tutorial = new Vector3(2.98f,4.08f,-32.03f);
     public static Vector3 islamismo = new Vector3(-30.93f, 18.5f, 0f);
     public static Vector3 cristao = new Vector3(3.6f, 18.5f, 34.8f);
+    public static Vector3 hindu = new Vector3(39.63f, 18.43f, -0.64f);
+
 
     public static Vector3 atual;
 
+    private void OnEnable()
+    {
+        atual = tutorial;
+    }
+
+    private void Start()
+    {
+    }
+    private void Update()
+    {
+        Debug.Log(atual);
+    }
 
 
     /*private void Start()

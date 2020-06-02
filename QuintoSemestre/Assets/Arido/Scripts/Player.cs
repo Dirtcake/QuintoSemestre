@@ -24,8 +24,14 @@ public class Player : MonoBehaviour
     {
         controlador = GetComponent<CharacterController>();
 
+
         if (SceneManager.GetActiveScene().name == "Hub")
+        {
             transform.position = HubSpawnManager.atual;
+            Debug.Log("Tamoaqui");
+            controlador.enabled = true;
+
+        }
 
     }
 

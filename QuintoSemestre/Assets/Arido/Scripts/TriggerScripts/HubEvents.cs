@@ -28,5 +28,11 @@ public class HubEvents : MonoBehaviour
         SceneManager.LoadScene("Palacio_Cristao", LoadSceneMode.Single);
     }
 
+    public void CarregarHindu()
+    {
+        SceneManager.LoadScene("Palacio_Hindu_Final", LoadSceneMode.Single);
+    }
+
+
 
 }
