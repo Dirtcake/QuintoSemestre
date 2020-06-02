@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class controleMandamentos : MonoBehaviour
 {
     public GameObject[] mandamentos;
     public GameObject panel;
-    public GameObject porta;
+    public GameObject porta, portaAberta;
     public static int indice;
     public int objetivo;
     public static int acertos;
@@ -17,22 +18,16 @@ public class controleMandamentos : MonoBehaviour
     
 
     void Update()
-    { 
+    {
         dist = Vector3.Distance(mandamentos[indice].transform.position, localizacaoObjetivo[indice].transform.position);
 
           if (dist <= distMin)
-          {
               arrastando = true;
-              acertou();
-          }
           else
               Debug.Log("longe" + dist);
           
           if (acertos == 1)
-          {
               arrastando = false;
-            Debug.Log("voltou");
-          }
           if (acertos == 2)
               arrastando = false;
 
@@ -60,15 +55,11 @@ public class controleMandamentos : MonoBehaviour
         if (acertos == 10)
         {
             porta.SetActive(false);
+            portaAberta.SetActive(true);
             panel.SetActive(false);
             Debug.Log("foi");
         }
           
-    }
-    public void acertou()
-    {
-        indice++;
-        acertos++;
     }
 }
 

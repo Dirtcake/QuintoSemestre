@@ -10,7 +10,7 @@ public class cristaoChao : MonoBehaviour
 
     public static bool errou_plataforma = false; 
     public int indice = 0;
-    public GameObject porta;
+    public GameObject porta,portaAberta;
     public GameObject[] plataformasObj;
     public String[] ordem_Correta_Plataformas;
     MeshRenderer render;
@@ -46,13 +46,13 @@ public class cristaoChao : MonoBehaviour
             {
                 if ( other.name == ordem_Correta_Plataformas[indice] )
                 {
-                    //plataformasObj[indice].SetActive(false);
                     Debug.Log("acertou");
                     indice++;
                     if (indice == 10)
                     {
                         Debug.Log("parabens krl ");
                         porta.SetActive(false);
+                        portaAberta.SetActive(true);
                     }
 
                 }
