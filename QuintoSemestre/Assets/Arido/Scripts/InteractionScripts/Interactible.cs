@@ -8,7 +8,7 @@ public class Interactible : MonoBehaviour
     public float distance = 60;
     Vector3 copia = Vector3.zero;
 
-    public GameObject Hud;
+    public GameObject Hud, aureaCalice;
 
     void Update()
     {
@@ -20,6 +20,9 @@ public class Interactible : MonoBehaviour
         Selecionavel selecao = null;
         Action ativacao = null;
         Puller puller = null;
+        TacaSelecao taca = null;
+        FinalCheck final = null;
+        MangaVerde manga = null;
 
 
         if (Physics.Raycast(raio, out hit, distance))
@@ -27,6 +30,9 @@ public class Interactible : MonoBehaviour
             selecao = hit.transform.GetComponent<Selecionavel>();
             ativacao = hit.transform.GetComponent<Action>();
             puller = hit.transform.GetComponent<Puller>();
+            taca = hit.transform.GetComponent<TacaSelecao>();
+            final = hit.transform.GetComponent<FinalCheck>();
+            manga = hit.transform.GetComponent<MangaVerde>();
 
         }
 
@@ -47,6 +53,34 @@ public class Interactible : MonoBehaviour
                 puller.Move();
             }
         }
+
+        if (taca != null)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+               taca.coletaTaca();
+            }
+        }
+
+        if (manga != null)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                manga.FINAL();
+            }
+        }
+        if (final != null)
+        {
+
+            if (aureaCalice != null) aureaCalice.SetActive(true);
+
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                final.ProcessaFinal();
+            }
+        }
+        else if (aureaCalice != null) aureaCalice.SetActive(false);
 
         if (ativacao != null)
         {

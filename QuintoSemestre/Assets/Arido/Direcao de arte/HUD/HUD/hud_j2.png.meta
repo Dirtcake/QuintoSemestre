@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:QuintoSemestre/Assets/Arido/Direcao de arte/HUD/HUD/hud_j2.png.meta
 guid: 638a15a94ac33d34db81ae16df722d9e
-=======
-guid: 9d68125baaa9d8a478870dd3f48085c3
->>>>>>> 452585fb6f22bd31b6ca8374dd2a42ee90d27d86:QuintoSemestre/Assets/Arido/Direcao de arte/HUD/nada.jpg.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +63,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -79,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -87,12 +83,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-<<<<<<< HEAD:QuintoSemestre/Assets/Arido/Direcao de arte/HUD/HUD/hud_j2.png.meta
     buildTarget: iPhone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +95,11 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-=======
->>>>>>> 452585fb6f22bd31b6ca8374dd2a42ee90d27d86:QuintoSemestre/Assets/Arido/Direcao de arte/HUD/nada.jpg.meta
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0

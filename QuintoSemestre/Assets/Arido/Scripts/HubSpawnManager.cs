@@ -40,6 +40,10 @@ public class HubSpawnManager : MonoBehaviour
 
     public static Vector3 atual;
 
+    public GameObject hudObject;
+
+    public static int indice;
+
     private void OnEnable()
     {
         atual = tutorial;
@@ -47,10 +51,19 @@ public class HubSpawnManager : MonoBehaviour
 
     private void Start()
     {
+        for(int i = 0;i < hudObject.transform.childCount; i++)
+        {
+            hudObject.transform.GetChild(i).gameObject.SetActive(false);
+        }
     }
     private void Update()
     {
-        Debug.Log(atual);
+    }
+
+    public void mostrarHud()
+    {
+        indice++;
+        hudObject.transform.GetChild(indice).gameObject.SetActive(true);
     }
 
 
