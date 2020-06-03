@@ -12,8 +12,15 @@ public class GerenciarSom : MonoBehaviour
     public AudioSource musicaAudio;
     public AudioSource[] efeitosAudio;
 
+    public Texture2D cursor;
+
     void Start()
     {
+
+        Cursor.SetCursor(cursor, Vector2.zero,CursorMode.Auto);
+
+
+
         firstPlayInt = PlayerPrefs.GetInt(FirstPlay);
         
         if(firstPlayInt == 0)

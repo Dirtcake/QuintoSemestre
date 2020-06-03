@@ -1,0 +1,2467 @@
+newmtl Material::martin_barrel_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 200
+Tf 1 1 1
+d 1
+map_Kd barrel_c.tga
+map_bump barrel_h.tga
+bump barrel_h.tga
+
+newmtl Material::martin_wood_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_003_256.tga
+map_bump wood_003_256_h.tga
+bump wood_003_256_h.tga
+
+newmtl Material::martin_chest_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 200
+Tf 1 1 1
+d 1
+map_Kd kiste_001.tga
+map_bump kiste_001_h.tga
+bump kiste_001_h.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_clay_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd loam_rattan_001.tga
+map_bump loam_rattan_001_h.tga
+bump loam_rattan_001_h.tga
+
+newmtl Material::martin_clay_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd loam_rattan_001.tga
+map_bump loam_rattan_001_h.tga
+bump loam_rattan_001_h.tga
+
+newmtl Material::martin_clay_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd ton.tga
+map_bump ton_h.tga
+bump ton_h.tga
+
+newmtl Material::martin_clay_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd ton.tga
+map_bump ton_h.tga
+bump ton_h.tga
+
+newmtl Material::martin_clay_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd ton.tga
+map_bump ton_h.tga
+bump ton_h.tga
+
+newmtl Material::martin_clay_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd loam_rattan_001.tga
+map_bump loam_rattan_001_h.tga
+bump loam_rattan_001_h.tga
+
+newmtl Material::martin_rope_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd rope.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_brick_dirt_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd brick_arc_dirt_001_c.tga
+map_bump brick_arc_dirt_001_h.tga
+bump brick_arc_dirt_001_h.tga
+
+newmtl Material::martin_cloth_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd cloth_001_c.tga
+map_bump cloth_001_h.tga
+bump cloth_001_h.tga
+
+newmtl Material::martin_copper_roof_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.5 0.5 0.5
+Ni 1.5
+Ns 200
+Tf 1 1 1
+d 1
+map_Kd copper.tga
+map_bump copper_h.tga
+bump copper_h.tga
+
+newmtl Material::martin_dirt_decal_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd dirt_decal_001_c.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_door_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd door_002.tga
+map_bump door_002_h.tga
+bump door_002_h.tga
+
+newmtl Material::martin_house_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_001_c.tga
+map_bump house_001_h.tga
+bump house_001_h.tga
+
+newmtl Material::martin_loam_rattan_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd loam_rattan_001.tga
+map_bump loam_rattan_001_h.tga
+bump loam_rattan_001_h.tga
+
+newmtl Material::martin_rope_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd rope.tga
+
+newmtl Material::martin_stone_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_001.tga
+map_bump stone_001_h.tga
+bump stone_001_h.tga
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_003.tga
+
+newmtl Material::martin_stone_004_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_004_c.tga
+map_bump stone_004_h.tga
+bump stone_004_h.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_stone_006_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_006_c.tga
+map_bump stone_006_h.tga
+bump stone_006_h.tga
+
+newmtl Material::martin_tiles_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd tiles_001_c.tga
+map_bump tiles_001_h.tga
+bump tiles_001_h.tga
+
+newmtl Material::martin_trapdoor_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd trapdoor_c.tga
+map_bump trapdoor_001_h.tga
+bump trapdoor_001_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_wood_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_003_256.tga
+map_bump wood_003_256_h.tga
+bump wood_003_256_h.tga
+
+newmtl Material::martin_brick_dirt_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd brick_arc_dirt_001_c.tga
+map_bump brick_arc_dirt_001_h.tga
+bump brick_arc_dirt_001_h.tga
+
+newmtl Material::martin_cloth_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd cloth_001_c.tga
+map_bump cloth_001_h.tga
+bump cloth_001_h.tga
+
+newmtl Material::martin_copper_roof_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.5 0.5 0.5
+Ni 1.5
+Ns 200
+Tf 1 1 1
+d 1
+map_Kd copper.tga
+map_bump copper_h.tga
+bump copper_h.tga
+
+newmtl Material::martin_dirt_decal_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd dirt_decal_001_c.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_door_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd door_002.tga
+map_bump door_002_h.tga
+bump door_002_h.tga
+
+newmtl Material::martin_house_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_001_c.tga
+map_bump house_001_h.tga
+bump house_001_h.tga
+
+newmtl Material::martin_loam_rattan_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd loam_rattan_001.tga
+map_bump loam_rattan_001_h.tga
+bump loam_rattan_001_h.tga
+
+newmtl Material::martin_rope_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd rope.tga
+
+newmtl Material::martin_stone_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_001.tga
+map_bump stone_001_h.tga
+bump stone_001_h.tga
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_003.tga
+
+newmtl Material::martin_stone_004_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_004_c.tga
+map_bump stone_004_h.tga
+bump stone_004_h.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_stone_006_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_006_c.tga
+map_bump stone_006_h.tga
+bump stone_006_h.tga
+
+newmtl Material::martin_tiles_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd tiles_001_c.tga
+map_bump tiles_001_h.tga
+bump tiles_001_h.tga
+
+newmtl Material::martin_trapdoor_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd trapdoor_c.tga
+map_bump trapdoor_001_h.tga
+bump trapdoor_001_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_wood_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_003_256.tga
+map_bump wood_003_256_h.tga
+bump wood_003_256_h.tga
+
+newmtl Material::martin_copper_roof_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.5 0.5 0.5
+Ni 1.5
+Ns 200
+Tf 1 1 1
+d 1
+map_Kd copper.tga
+map_bump copper_h.tga
+bump copper_h.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_house_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_001_c.tga
+map_bump house_001_h.tga
+bump house_001_h.tga
+
+newmtl Material::martin_stone_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_001.tga
+map_bump stone_001_h.tga
+bump stone_001_h.tga
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_003.tga
+
+newmtl Material::martin_stone_004_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_004_c.tga
+map_bump stone_004_h.tga
+bump stone_004_h.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_stone_006_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_006_c.tga
+map_bump stone_006_h.tga
+bump stone_006_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_copper_roof_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.5 0.5 0.5
+Ni 1.5
+Ns 200
+Tf 1 1 1
+d 1
+map_Kd copper.tga
+map_bump copper_h.tga
+bump copper_h.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_house_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_001_c.tga
+map_bump house_001_h.tga
+bump house_001_h.tga
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_003.tga
+
+newmtl Material::martin_stone_004_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_004_c.tga
+map_bump stone_004_h.tga
+bump stone_004_h.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_stone_006_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_006_c.tga
+map_bump stone_006_h.tga
+bump stone_006_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl material_house1_lod4
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+map_Kd house1_lod.tga
+
+newmtl Material::martin_cloth_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd cloth_001_c.tga
+map_bump cloth_001_h.tga
+bump cloth_001_h.tga
+
+newmtl Material::martin_dirt_decal_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd dirt_decal_001_c.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_door_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd door_002.tga
+map_bump door_002_h.tga
+bump door_002_h.tga
+
+newmtl Material::martin_house_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_001_c.tga
+map_bump house_001_h.tga
+bump house_001_h.tga
+
+newmtl Material::martin_rope_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd rope.tga
+
+newmtl Material::martin_stone_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_001.tga
+map_bump stone_001_h.tga
+bump stone_001_h.tga
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_003.tga
+
+newmtl Material::martin_stone_004_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_004_c.tga
+map_bump stone_004_h.tga
+bump stone_004_h.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_stone_006_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_006_c.tga
+map_bump stone_006_h.tga
+bump stone_006_h.tga
+
+newmtl Material::martin_tiles_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd tiles_001_c.tga
+map_bump tiles_001_h.tga
+bump tiles_001_h.tga
+
+newmtl Material::martin_trapdoor_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd trapdoor_c.tga
+map_bump trapdoor_001_h.tga
+bump trapdoor_001_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_wood_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_003_256.tga
+map_bump wood_003_256_h.tga
+bump wood_003_256_h.tga
+
+newmtl Material::martin_cloth_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd cloth_001_c.tga
+map_bump cloth_001_h.tga
+bump cloth_001_h.tga
+
+newmtl Material::martin_dirt_decal_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd dirt_decal_001_c.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_door_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd door_002.tga
+map_bump door_002_h.tga
+bump door_002_h.tga
+
+newmtl Material::martin_house_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_001_c.tga
+map_bump house_001_h.tga
+bump house_001_h.tga
+
+newmtl Material::martin_rope_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd rope.tga
+
+newmtl Material::martin_stone_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_001.tga
+map_bump stone_001_h.tga
+bump stone_001_h.tga
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_003.tga
+
+newmtl Material::martin_stone_004_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_004_c.tga
+map_bump stone_004_h.tga
+bump stone_004_h.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_stone_006_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_006_c.tga
+map_bump stone_006_h.tga
+bump stone_006_h.tga
+
+newmtl Material::martin_tiles_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd tiles_001_c.tga
+map_bump tiles_001_h.tga
+bump tiles_001_h.tga
+
+newmtl Material::martin_trapdoor_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd trapdoor_c.tga
+map_bump trapdoor_001_h.tga
+bump trapdoor_001_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_wood_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_003_256.tga
+map_bump wood_003_256_h.tga
+bump wood_003_256_h.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_house_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_001_c.tga
+map_bump house_001_h.tga
+bump house_001_h.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_stone_006_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_006_c.tga
+map_bump stone_006_h.tga
+bump stone_006_h.tga
+
+newmtl Material::martin_tiles_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd tiles_001_c.tga
+map_bump tiles_001_h.tga
+bump tiles_001_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl orental_houses_02_lod3
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+map_Kd house2_lod.tga
+
+newmtl Material::martin_dirt_decal_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd dirt_decal_001_c.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_door_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd door_002.tga
+map_bump door_002_h.tga
+bump door_002_h.tga
+
+newmtl Material::martin_house_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_001_c.tga
+map_bump house_001_h.tga
+bump house_001_h.tga
+
+newmtl Material::martin_loam_rattan_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd loam_rattan_001.tga
+map_bump loam_rattan_001_h.tga
+bump loam_rattan_001_h.tga
+
+newmtl Material::martin_rope_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd rope.tga
+
+newmtl Material::martin_stone_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_001.tga
+map_bump stone_001_h.tga
+bump stone_001_h.tga
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_003.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_tiles_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd tiles_001_c.tga
+map_bump tiles_001_h.tga
+bump tiles_001_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_wood_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_003_256.tga
+map_bump wood_003_256_h.tga
+bump wood_003_256_h.tga
+
+newmtl Material::martin_dirt_decal_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd dirt_decal_001_c.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_door_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd door_002.tga
+map_bump door_002_h.tga
+bump door_002_h.tga
+
+newmtl Material::martin_house_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_001_c.tga
+map_bump house_001_h.tga
+bump house_001_h.tga
+
+newmtl Material::martin_loam_rattan_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd loam_rattan_001.tga
+map_bump loam_rattan_001_h.tga
+bump loam_rattan_001_h.tga
+
+newmtl Material::martin_rope_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd rope.tga
+
+newmtl Material::martin_stone_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_001.tga
+map_bump stone_001_h.tga
+bump stone_001_h.tga
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_003.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_tiles_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd tiles_001_c.tga
+map_bump tiles_001_h.tga
+bump tiles_001_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_wood_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_003_256.tga
+map_bump wood_003_256_h.tga
+bump wood_003_256_h.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_door_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd door_002.tga
+map_bump door_002_h.tga
+bump door_002_h.tga
+
+newmtl Material::martin_house_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_001_c.tga
+map_bump house_001_h.tga
+bump house_001_h.tga
+
+newmtl Material::martin_loam_rattan_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd loam_rattan_001.tga
+map_bump loam_rattan_001_h.tga
+bump loam_rattan_001_h.tga
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_003.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_tiles_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd tiles_001_c.tga
+map_bump tiles_001_h.tga
+bump tiles_001_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl oriental_house_03_lod3
+Ka 0 0 0
+Kd 0.784314 0.784314 0.784314
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+map_Kd house3_lod.tga
+
+newmtl Material::martin_barrel_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 200
+Tf 1 1 1
+d 1
+map_Kd barrel_c.tga
+map_bump barrel_h.tga
+bump barrel_h.tga
+
+newmtl Material::martin_chest_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 200
+Tf 1 1 1
+d 1
+map_Kd kiste_001.tga
+map_bump kiste_001_h.tga
+bump kiste_001_h.tga
+
+newmtl Material::martin_clay_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd ton.tga
+map_bump ton_h.tga
+bump ton_h.tga
+
+newmtl Material::martin_clay_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd loam_rattan_001.tga
+map_bump loam_rattan_001_h.tga
+bump loam_rattan_001_h.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_palm_bark_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd palm_bark.tga
+map_bump palm_bark_h.tga
+bump palm_bark_h.tga
+
+newmtl Material::martin_palm_leave_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 0.99
+map_Kd palm_leave_001.tga
+map_bump palm_leave_001_h.tga
+bump palm_leave_001_h.tga
+
+newmtl Material::martin_rope_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+
+newmtl Material::martin_stone_006_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+
+newmtl Material::martin_trapdoor_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+
+newmtl Material::martin_wood_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+
+newmtl Material::martin_barrel_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 200
+Tf 1 1 1
+d 1
+map_Kd barrel_c.tga
+map_bump barrel_h.tga
+bump barrel_h.tga
+
+newmtl Material::martin_chest_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 200
+Tf 1 1 1
+d 1
+map_Kd kiste_001.tga
+map_bump kiste_001_h.tga
+bump kiste_001_h.tga
+
+newmtl Material::martin_clay_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd ton.tga
+map_bump ton_h.tga
+bump ton_h.tga
+
+newmtl Material::martin_clay_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd loam_rattan_001.tga
+map_bump loam_rattan_001_h.tga
+bump loam_rattan_001_h.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_palm_bark_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd palm_bark.tga
+map_bump palm_bark_h.tga
+bump palm_bark_h.tga
+
+newmtl Material::martin_palm_leave_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 0.99
+map_Kd palm_leave_001.tga
+map_bump palm_leave_001_h.tga
+bump palm_leave_001_h.tga
+
+newmtl Material::martin_rope_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd rope.tga
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_003.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_stone_006_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_006_c.tga
+map_bump stone_006_h.tga
+bump stone_006_h.tga
+
+newmtl Material::martin_trapdoor_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd trapdoor_c.tga
+map_bump trapdoor_001_h.tga
+bump trapdoor_001_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_wood_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_003_256.tga
+map_bump wood_003_256_h.tga
+bump wood_003_256_h.tga
+
+newmtl Material::martin_barrel_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 200
+Tf 1 1 1
+d 1
+map_Kd barrel_c.tga
+map_bump barrel_h.tga
+bump barrel_h.tga
+
+newmtl Material::martin_chest_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 200
+Tf 1 1 1
+d 1
+map_Kd kiste_001.tga
+map_bump kiste_001_h.tga
+bump kiste_001_h.tga
+
+newmtl Material::martin_clay_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd ton.tga
+map_bump ton_h.tga
+bump ton_h.tga
+
+newmtl Material::martin_clay_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd loam_rattan_001.tga
+map_bump loam_rattan_001_h.tga
+bump loam_rattan_001_h.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_palm_bark_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd palm_bark.tga
+map_bump palm_bark_h.tga
+bump palm_bark_h.tga
+
+newmtl Material::martin_palm_leave_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 0.99
+map_Kd palm_leave_001.tga
+map_bump palm_leave_001_h.tga
+bump palm_leave_001_h.tga
+
+newmtl Material::martin_rope_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd rope.tga
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_003.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_stone_006_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_006_c.tga
+map_bump stone_006_h.tga
+bump stone_006_h.tga
+
+newmtl Material::martin_trapdoor_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd trapdoor_c.tga
+map_bump trapdoor_001_h.tga
+bump trapdoor_001_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_wood_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_003_256.tga
+map_bump wood_003_256_h.tga
+bump wood_003_256_h.tga
+
+newmtl Material::martin_palm_bark_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd palm_bark.tga
+map_bump palm_bark_h.tga
+bump palm_bark_h.tga
+
+newmtl Material::martin_palm_leave_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 0.99
+map_Kd palm_leave_001.tga
+map_bump palm_leave_001_h.tga
+bump palm_leave_001_h.tga
+
+newmtl bround
+Ka 0 0 0
+Kd 0.568627 0.568627 0.568627
+Ks 0 0 0
+Ni 1
+Ns 400
+Tf 1 1 1
+d 1
+
+newmtl Material::martin_palm_bark_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd palm_bark.tga
+map_bump palm_bark_h.tga
+bump palm_bark_h.tga
+
+newmtl Material::martin_palm_leave_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 0.99
+map_Kd palm_leave_001.tga
+map_bump palm_leave_001_h.tga
+bump palm_leave_001_h.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_trapdoor_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd trapdoor_c.tga
+map_bump trapdoor_001_h.tga
+bump trapdoor_001_h.tga
+
+newmtl Material::martin_door_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd house_door_001.tga
+map_bump house_door_001_h.tga
+bump house_door_001_h.tga
+
+newmtl Material::martin_rope_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd rope.tga
+
+newmtl Material::martin_stone_003_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_003.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_stone_006_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_006_c.tga
+map_bump stone_006_h.tga
+bump stone_006_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_wood_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_003_256.tga
+map_bump wood_003_256_h.tga
+bump wood_003_256_h.tga
+
+newmtl Material::martin_stone_005_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd stone_005_c.tga
+map_bump stone_005_h.tga
+bump stone_005_h.tga
+
+newmtl Material::martin_windows_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd windows_c.tga
+map_bump windows_h.tga
+bump windows_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
+newmtl Material::martin_wood_002_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_003_256.tga
+map_bump wood_003_256_h.tga
+bump wood_003_256_h.tga
+
+newmtl Material::martin_wood_001_mt
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.01 0.01 0.01
+Ni 1.5
+Ns 100
+Tf 1 1 1
+d 1
+map_Kd wood_002_256.tga
+map_bump wood_002_256_h.tga
+bump wood_002_256_h.tga
+
