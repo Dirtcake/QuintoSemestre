@@ -8,7 +8,7 @@ public class ControlPuzzle : MonoBehaviour
     public GameObject portaAberta,portaFechada,animacao;
     void Update()
     {
-        if(contadorAcertos >= 5)
+        if(contadorAcertos >= 7)
         {
             portaAberta.SetActive(true);
             portaFechada.SetActive(false);
