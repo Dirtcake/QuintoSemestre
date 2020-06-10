@@ -13884,12 +13884,12 @@ PrefabInstance:
     - target: {fileID: 1764208384980146168, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_Name
-      value: PortaFechada (2)
+      value: PortaAberta
       objectReference: {fileID: 0}
     - target: {fileID: 1764208384980146168, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3323907167464400363, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
@@ -25914,7 +25914,7 @@ PrefabInstance:
     - target: {fileID: 1764208384980146168, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3323907167464400363, guid: 2d9e83821d50a654eb5e6ac882b83fe4,
         type: 3}
