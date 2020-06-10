@@ -80,14 +80,14 @@ public class HubSpawnManager : MonoBehaviour
         if (status)
         {
             perga.SetActive(false);
-            objectHide.SetActive(true);
+            if (objectHide != null) objectHide.SetActive(true);
             Player.free = true;
             status = false;
         }
         else
         {
             perga.SetActive(true);
-            objectHide.SetActive(false);
+            if(objectHide != null) objectHide.SetActive(false);
             Player.free = false;
             status = true;
         }
