@@ -12,7 +12,8 @@ public class IslaTrigger : MonoBehaviour
     public void trocaCena()
     {
         HubSpawnManager.atual = HubSpawnManager.islamismo;
-        SceneManager.LoadScene("Hub",LoadSceneMode.Single);
+        HubSpawnManager.loading = "Hub";
+        SceneManager.LoadScene("Carregamento", LoadSceneMode.Single);
     }
 
     public void NomearLocal()

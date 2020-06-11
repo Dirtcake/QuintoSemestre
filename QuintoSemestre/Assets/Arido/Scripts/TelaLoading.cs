@@ -8,6 +8,7 @@ public class TelaLoading : MonoBehaviour
 {
     [SerializeField]
     private Image Progresso;
+
  
     private IEnumerator Start()
     {
@@ -15,15 +16,30 @@ public class TelaLoading : MonoBehaviour
         StartCoroutine(LoadAsyncOperation());
     }
 
+
     IEnumerator LoadAsyncOperation()
     {
-        AsyncOperation gameLevel = SceneManager.LoadSceneAsync(2);
-
-        while (gameLevel.progress < 1)
+        if (HubSpawnManager.loading == null)
         {
-            Progresso.fillAmount = gameLevel.progress;
-            yield return new WaitForEndOfFrame();
+            AsyncOperation gameLevel = SceneManager.LoadSceneAsync(2);
+
+            while (gameLevel.progress < 1)
+            {
+                Progresso.fillAmount = gameLevel.progress;
+                yield return new WaitForEndOfFrame();
+            }
+        } else
+        {
+            AsyncOperation gameLevel = SceneManager.LoadSceneAsync(HubSpawnManager.loading);
+
+            while (gameLevel.progress < 1)
+            {
+                Progresso.fillAmount = gameLevel.progress;
+                yield return new WaitForEndOfFrame();
+            }
         }
+
+
         
     }
 

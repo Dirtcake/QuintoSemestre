@@ -20,23 +20,26 @@ public class HubEvents : MonoBehaviour
 
     public void CarregarIslamico()
     {
-        SceneManager.LoadScene("Palacio_Islamico",LoadSceneMode.Single);
+        HubSpawnManager.loading = "Palacio_Islamico";
+        SceneManager.LoadScene("Carregamento",LoadSceneMode.Single);
     }
 
     public void CarregarCristao()
     {
-        SceneManager.LoadScene("Palacio_Cristao", LoadSceneMode.Single);
+        HubSpawnManager.loading = "Palacio_Cristao";
+        SceneManager.LoadScene("Carregamento", LoadSceneMode.Single);
     }
 
     public void CarregarHindu()
     {
-        SceneManager.LoadScene("Palacio_Hindu_Final", LoadSceneMode.Single);
+        HubSpawnManager.loading = "Palacio_Hindu_Final";
+        SceneManager.LoadScene("Carregamento", LoadSceneMode.Single);
     }
 
     public void carregarFinal()
     {
-        SceneManager.LoadScene("Quarto", LoadSceneMode.Single);
-
+        HubSpawnManager.loading = "Quarto";
+        SceneManager.LoadScene("Carregamento", LoadSceneMode.Single);
     }
 
 

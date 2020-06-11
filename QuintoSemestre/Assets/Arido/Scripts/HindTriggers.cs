@@ -20,6 +20,7 @@ public class HindTriggers : MonoBehaviour
     public void trocaCena()
     {
         HubSpawnManager.atual = HubSpawnManager.hindu;
-        SceneManager.LoadScene("Hub", LoadSceneMode.Single);
+        HubSpawnManager.loading = "Hub";
+        SceneManager.LoadScene("Carregamento", LoadSceneMode.Single);
     }
 }

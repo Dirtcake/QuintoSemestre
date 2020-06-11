@@ -43,6 +43,7 @@ public class HubSpawnManager : MonoBehaviour
     public GameObject hudObject;
 
     public static int indice;
+    public static string loading;
 
     private void OnEnable()
     {

@@ -18,7 +18,8 @@ public class cristaoVideo : MonoBehaviour
     public void trocaCena()
     {
         HubSpawnManager.atual = HubSpawnManager.cristao;
-        SceneManager.LoadScene("Hub",LoadSceneMode.Single);
+        HubSpawnManager.loading = "Hub";
+        SceneManager.LoadScene("Carregamento", LoadSceneMode.Single);
     }
 
 }

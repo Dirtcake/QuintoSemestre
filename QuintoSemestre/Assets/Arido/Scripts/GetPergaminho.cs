@@ -13,7 +13,6 @@ public class GetPergaminho : MonoBehaviour
     public void GetPintura()
     {
 
-        Debug.Log("pegou");
         Spawn.GetComponent<HubSpawnManager>().liberarPergaminho(indice);
         Destroy(this);
     }

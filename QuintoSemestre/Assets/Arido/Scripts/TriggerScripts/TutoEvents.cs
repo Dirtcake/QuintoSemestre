@@ -29,7 +29,8 @@ public class TutoEvents : MonoBehaviour
 
     public void trocaCena()
     {
-        SceneManager.LoadScene("Hub");
+        HubSpawnManager.loading = "Hub";
+        SceneManager.LoadScene("Carregamento");
     }
 
     public void NomearLocal1()
