@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1912480045519290383}
   - component: {fileID: 8817489076389834898}
   - component: {fileID: 6353115625241103666}
-  - component: {fileID: 3580998387361524555}
   m_Layer: 0
   m_Name: 5
   m_TagString: samsara
@@ -95,20 +94,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2971345595713165372, guid: 4a03e13780e6f5cdcef0bf9608cbfc16, type: 3}
---- !u!114 &3580998387361524555
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1015602775387543374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f0512caa9abf5844b6749f1248be98b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  M_selecionado: {fileID: 2100000, guid: 52cb41b96aca8794ebdb70fa1531989d, type: 2}
-  M_descelecionado: {fileID: 2100000, guid: 5b77b826be038324986f0eb00be43a5f, type: 2}
 --- !u!1 &2546606746477657693
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +106,6 @@ GameObject:
   - component: {fileID: 2411905328284587642}
   - component: {fileID: 4843924089728690723}
   - component: {fileID: 8672603460259555858}
-  - component: {fileID: 5021755207460178982}
   m_Layer: 0
   m_Name: 3
   m_TagString: samsara
@@ -204,20 +188,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2971345595713165372, guid: 4a03e13780e6f5cdcef0bf9608cbfc16, type: 3}
---- !u!114 &5021755207460178982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2546606746477657693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f0512caa9abf5844b6749f1248be98b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  M_selecionado: {fileID: 2100000, guid: 52cb41b96aca8794ebdb70fa1531989d, type: 2}
-  M_descelecionado: {fileID: 2100000, guid: cfe50bad7b1226f47a955b145d2e4bba, type: 2}
 --- !u!1 &6774100906596632753
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,7 +200,6 @@ GameObject:
   - component: {fileID: 2282783268014230925}
   - component: {fileID: 6870929679289495435}
   - component: {fileID: 6189731283441743130}
-  - component: {fileID: 5218911959096746807}
   m_Layer: 0
   m_Name: 4
   m_TagString: samsara
@@ -313,20 +282,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2971345595713165372, guid: 4a03e13780e6f5cdcef0bf9608cbfc16, type: 3}
---- !u!114 &5218911959096746807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6774100906596632753}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f0512caa9abf5844b6749f1248be98b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  M_selecionado: {fileID: 2100000, guid: 52cb41b96aca8794ebdb70fa1531989d, type: 2}
-  M_descelecionado: {fileID: 2100000, guid: 5841e5fe9c2fee846a180de2b767a681, type: 2}
 --- !u!1 &6938729277587506017
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,7 +294,6 @@ GameObject:
   - component: {fileID: 5212680608430015685}
   - component: {fileID: 7321944139344299478}
   - component: {fileID: 3689504627854345638}
-  - component: {fileID: 5142916955260048112}
   m_Layer: 0
   m_Name: 2
   m_TagString: samsara
@@ -422,20 +376,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2971345595713165372, guid: 4a03e13780e6f5cdcef0bf9608cbfc16, type: 3}
---- !u!114 &5142916955260048112
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6938729277587506017}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f0512caa9abf5844b6749f1248be98b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  M_selecionado: {fileID: 2100000, guid: 52cb41b96aca8794ebdb70fa1531989d, type: 2}
-  M_descelecionado: {fileID: 2100000, guid: cfe50bad7b1226f47a955b145d2e4bba, type: 2}
 --- !u!1 &8493045111882696444
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,7 +424,6 @@ GameObject:
   - component: {fileID: 5890645143080678074}
   - component: {fileID: 4084021554623654822}
   - component: {fileID: 7873856480950538288}
-  - component: {fileID: 3302914010015726669}
   m_Layer: 0
   m_Name: 1
   m_TagString: samsara
@@ -567,20 +506,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2971345595713165372, guid: 4a03e13780e6f5cdcef0bf9608cbfc16, type: 3}
---- !u!114 &3302914010015726669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8953313984888547094}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f0512caa9abf5844b6749f1248be98b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  M_selecionado: {fileID: 2100000, guid: 52cb41b96aca8794ebdb70fa1531989d, type: 2}
-  M_descelecionado: {fileID: 2100000, guid: 9ccf04729fbae39468beedd6d94f2a02, type: 2}
 --- !u!1 &9052986198403640096
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,7 +518,6 @@ GameObject:
   - component: {fileID: 6484665562005560588}
   - component: {fileID: 3891617305532310430}
   - component: {fileID: 3644944607201570349}
-  - component: {fileID: 4821815220958217333}
   m_Layer: 0
   m_Name: 6
   m_TagString: samsara
@@ -676,17 +600,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2971345595713165372, guid: 4a03e13780e6f5cdcef0bf9608cbfc16, type: 3}
---- !u!114 &4821815220958217333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9052986198403640096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f0512caa9abf5844b6749f1248be98b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  M_selecionado: {fileID: 2100000, guid: 52cb41b96aca8794ebdb70fa1531989d, type: 2}
-  M_descelecionado: {fileID: 2100000, guid: 392f7740dfd686348b35b4e0373800ac, type: 2}
