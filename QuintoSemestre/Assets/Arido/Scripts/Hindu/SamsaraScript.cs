@@ -11,6 +11,7 @@ public class SamsaraScript : MonoBehaviour
     public GameObject[] imagens;
     public Transform[] posicoes_atuais;
     public Vector3[] posicoes_iniciais;
+    public GameObject camera_puzzle_concluido;
 
     GameObject plataformasObjeto;
     GameObject jogador;
@@ -23,6 +24,7 @@ public class SamsaraScript : MonoBehaviour
     public int contadorAcertos = 0;
     public bool concluido;
     bool animacao;
+    float tempo;
 
     void Start()
     {
@@ -58,8 +60,14 @@ public class SamsaraScript : MonoBehaviour
     
         if (concluido)
         {
-            plataformasObjeto.GetComponent<Interpolacao>().enabled = true;
-            
+            if(tempo < 8f) {
+                tempo += Time.deltaTime;
+                
+                if(tempo > 1f)camera_puzzle_concluido.SetActive(true);
+                if(tempo > 5f)  plataformasObjeto.GetComponent<Interpolacao>().enabled = true;  
+            }
+            else camera_puzzle_concluido.SetActive(false);
+
         }
 
        
