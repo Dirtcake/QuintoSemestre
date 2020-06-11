@@ -29,7 +29,6 @@ public class TutoEvents : MonoBehaviour
 
     public void trocaCena()
     {
-        fadeout.fade_out();
         SceneManager.LoadScene("Hub");
     }
 

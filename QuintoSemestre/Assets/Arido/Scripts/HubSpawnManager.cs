@@ -55,15 +55,48 @@ public class HubSpawnManager : MonoBehaviour
         {
             hudObject.transform.GetChild(i).gameObject.SetActive(false);
         }
+
+        objectHide = GameObject.FindGameObjectWithTag("HideInMenu");
     }
     private void Update()
     {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            pergaminho();
+        }
     }
 
     public void mostrarHud()
     {
         indice++;
         hudObject.transform.GetChild(indice).gameObject.SetActive(true);
+    }
+
+    private GameObject objectHide;
+    public GameObject perga;
+    bool status;
+    void pergaminho()
+    {
+        if (status)
+        {
+            perga.SetActive(false);
+            if (objectHide != null) objectHide.SetActive(true);
+            Player.free = true;
+            status = false;
+        }
+        else
+        {
+            perga.SetActive(true);
+            if(objectHide != null) objectHide.SetActive(false);
+            Player.free = false;
+            status = true;
+        }
+    }
+
+    public void liberarPergaminho(int indice)
+    {
+        pergaminho();
+        perga.transform.GetChild(indice).gameObject.SetActive(true);
     }
 
 

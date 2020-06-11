@@ -13,6 +13,7 @@ TagManager:
   - plataforma
   - samsara
   - taca
+  - HideInMenu
   layers:
   - Default
   - TransparentFX

@@ -23,6 +23,7 @@ public class Interactible : MonoBehaviour
         TacaSelecao taca = null;
         FinalCheck final = null;
         MangaVerde manga = null;
+        GetPergaminho pergaminho = null;
 
 
         if (Physics.Raycast(raio, out hit, distance))
@@ -33,10 +34,11 @@ public class Interactible : MonoBehaviour
             taca = hit.transform.GetComponent<TacaSelecao>();
             final = hit.transform.GetComponent<FinalCheck>();
             manga = hit.transform.GetComponent<MangaVerde>();
+            pergaminho = hit.transform.GetComponent<GetPergaminho>();
 
         }
 
-        //Debug.Log(taca);
+        //Debug.Log(pergaminho);
         
 
         if (selecao != null)
@@ -51,6 +53,15 @@ public class Interactible : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 puller.Move();
+            }
+        }
+
+        if (pergaminho != null)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+
+                pergaminho.GetPintura();
             }
         }
 

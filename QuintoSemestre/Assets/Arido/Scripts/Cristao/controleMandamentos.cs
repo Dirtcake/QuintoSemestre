@@ -19,6 +19,10 @@ public class controleMandamentos : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+            {
+                panel.SetActive(false);
+            }
         dist = Vector3.Distance(mandamentos[indice].transform.position, localizacaoObjetivo[indice].transform.position);
 
           if (dist <= distMin)
@@ -58,6 +62,7 @@ public class controleMandamentos : MonoBehaviour
             portaAberta.SetActive(true);
             panel.SetActive(false);
             Debug.Log("foi");
+            acertos = 0;
         }
           
     }
