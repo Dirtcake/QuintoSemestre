@@ -27922,6 +27922,75 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1103882761297548365, guid: ab54b2fa13dc0174a9343ca28da73b23, type: 3}
+--- !u!1001 &3700755883722437261
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2032093921115899999, guid: 20827b4241a067a48bbdd647654c10e5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.960228
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032093921115899999, guid: 20827b4241a067a48bbdd647654c10e5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 19.589117
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032093921115899999, guid: 20827b4241a067a48bbdd647654c10e5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.324273
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032093921115899999, guid: 20827b4241a067a48bbdd647654c10e5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032093921115899999, guid: 20827b4241a067a48bbdd647654c10e5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032093921115899999, guid: 20827b4241a067a48bbdd647654c10e5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032093921115899999, guid: 20827b4241a067a48bbdd647654c10e5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032093921115899999, guid: 20827b4241a067a48bbdd647654c10e5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032093921115899999, guid: 20827b4241a067a48bbdd647654c10e5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032093921115899999, guid: 20827b4241a067a48bbdd647654c10e5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2032093921115899999, guid: 20827b4241a067a48bbdd647654c10e5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4755502422926515619, guid: 20827b4241a067a48bbdd647654c10e5,
+        type: 3}
+      propertyPath: m_Name
+      value: janela
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20827b4241a067a48bbdd647654c10e5, type: 3}
 --- !u!23 &4981789758529834897
 MeshRenderer:
   m_ObjectHideFlags: 0
