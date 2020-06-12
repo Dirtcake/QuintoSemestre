@@ -13136,6 +13136,7 @@ GameObject:
   - component: {fileID: 1537461965}
   - component: {fileID: 1537461964}
   - component: {fileID: 1537461967}
+  - component: {fileID: 1537461968}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -13243,6 +13244,29 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1537461968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1537461962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Music/New Chapter/Novo Capitulo Hindu
+  PlayEvent: 2
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!64 &1552291898
 MeshCollider:
   m_ObjectHideFlags: 0

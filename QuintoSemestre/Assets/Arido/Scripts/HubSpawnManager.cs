@@ -45,6 +45,9 @@ public class HubSpawnManager : MonoBehaviour
     public static int indice;
     public static string loading;
 
+    public static int hubCalicesSom;
+
+
     private void OnEnable()
     {
         atual = tutorial;

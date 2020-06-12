@@ -19,16 +19,22 @@ public class Player : MonoBehaviour
     const float VELO_PADRAO = 5, VELO_CORRENDO = 8, VELO_AGACHADO = 2.5F;
     const float ALTURA_PE = 2, ALTURA_AGACHADO = 0;
 
-
+    [FMODUnity.EventRef]
+    public string inicioHub;
     void Start()
     {
+
+        if(HubSpawnManager.atual == HubSpawnManager.tutorial && SceneManager.GetActiveScene().name == "Hub")
+        {
+            FMODUnity.RuntimeManager.PlayOneShot(inicioHub, transform.position);
+        }
+
         controlador = GetComponent<CharacterController>();
 
 
         if (SceneManager.GetActiveScene().name == "Hub")
         {
             transform.position = HubSpawnManager.atual;
-            Debug.Log("Tamoaqui");
             controlador.enabled = true;
 
         }

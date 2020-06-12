@@ -9282,7 +9282,7 @@ MonoBehaviour:
   - Name: reverb
     Value: 0.52
   - Name: Volume
-    Value: 100
+    Value: 75
   OverrideAttenuation: 1
   OverrideMinDistance: 1
   OverrideMaxDistance: 999
